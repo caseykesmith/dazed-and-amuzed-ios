@@ -21,7 +21,7 @@ struct ContentView: View {
             case .vibeSelect:
                 VibeSelectView(viewModel: viewModel)
             case .packSelect:
-                HomeView(viewModel: viewModel)
+                PackSelectView(viewModel: viewModel)
             case .addPlayers:
                 HomeView(viewModel: viewModel)
             case .gamePlay:
