@@ -16,7 +16,7 @@ struct ContentView: View {
             case .home:
                 HomeView(viewModel: viewModel)
             case .playMode:
-                // Coming next
+                PlayModeView(viewModel: viewModel)
                 HomeView(viewModel: viewModel)
             case .vibeSelect:
                 HomeView(viewModel: viewModel)
