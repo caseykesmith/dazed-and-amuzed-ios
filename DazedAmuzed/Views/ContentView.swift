@@ -29,7 +29,7 @@ struct ContentView: View {
             case .judgeTurn:
                 JudgeTurnView(viewModel: viewModel)
             case .results:
-                HomeView(viewModel: viewModel)
+                ResultsView(viewModel: viewModel)
             }
         }
     }
