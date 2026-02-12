@@ -1,0 +1,7599 @@
+{
+  "questions": [
+    {
+      "text": "Pineapple belongs on pizza.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "A hot dog is a sandwich.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Cereal is technically a soup.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Water is wet.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Toilet paper should go over, not under.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Cold pizza is better than reheated pizza.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Breakfast for dinner is superior to dinner for dinner.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Ranch goes on everything.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Ketchup on eggs is acceptable.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Well-done steak is a valid preference.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Boneless wings are just chicken nuggets for adults.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Coffee is overrated.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Oat milk is better than regular milk.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Avocado is overrated.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Candy corn is actually good.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Gas station food can be quality.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Fast food fries are better than restaurant fries.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Frozen pizza can beat delivery pizza.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Sparkling water is just angry water.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "White chocolate isn't real chocolate.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Mayo is disgusting.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Cilantro ruins every dish.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Plain bagels are the best bagels.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "American cheese is underrated.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Raisins ruin everything they touch.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Ice in wine is acceptable.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Cheap beer has its place.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Brunch is overrated.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Meal prepping is depressing.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Eating alone at restaurants is underrated.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Morning people have life figured out.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Naps are a sign of strength, not weakness.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Making your bed every day is pointless.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Crocs are acceptable footwear.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Socks with sandals can work.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "8 hours of sleep is a myth.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Sleeping with socks on is psychotic.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Cold showers are better than hot showers.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Working from home is better than the office.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Mondays aren't that bad.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Small talk is actually important.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Being early is better than being on time.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Cash is outdated.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Keeping up with the news is overrated.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "New Year's resolutions are pointless.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Birthday dinners where you pay are unfair.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Putting the shopping cart back is a moral test.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Doing laundry is the worst chore.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Carpeted bathrooms should be illegal.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Grocery shopping is therapeutic.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Sundays are better than Saturdays.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Staying in is better than going out.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Alarm clocks are torture devices.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "The snooze button is self-sabotage.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Driving with the windows down beats AC.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Road trips are better than flying.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Camping is just paying to be homeless.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Beach vacations are overrated.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Cruises are floating prisons.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "All-inclusive resorts are the only way to vacation.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Reality TV is quality content.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Die Hard is a Christmas movie.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "The book is always better than the movie.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Spoilers don't actually ruin anything.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Subtitles should always be on.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Movie theaters are dying for good reason.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Reboots are ruining entertainment.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "The Office is overrated.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Friends hasn't aged well.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Marvel movies are all the same.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Horror movies are just cheap thrills.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Musicals are inherently cringe.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Laugh tracks ruin sitcoms.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "The Beatles are overrated.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Autotune ruined modern music.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Pop music today is better than ever.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Vinyl sounds better than digital.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Video games are a legitimate art form.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Competitive gaming is a real sport.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "True crime content is problematic.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Award shows are pointless.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Binge-watching is better than weekly episodes.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Movie trailers show too much.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Sequels are never as good as originals.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Animated movies deserve more respect.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Stand-up comedy peaked in the 2000s.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Podcasts are replacing radio for good reason.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "TikTok is actually educational.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Twitter/X was better before.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "YouTube is the best streaming platform.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Netflix quality has declined.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "You can't truly be friends with an ex.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Once trust is broken, it never fully returns.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Long-distance relationships rarely work.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "People don't really change after 25.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Everyone settles in some way.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Love alone can't sustain a relationship.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Cheating can be forgivable.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "You can love someone who's wrong for you.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Monogamy isn't natural.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Soulmates don't exist.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Love at first sight is just attraction.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Moving in before marriage is essential.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Age gaps in relationships matter.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Prenups are unromantic but necessary.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "You should tell your partner everything.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Couples who never fight have issues.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Some relationships should end, and that's okay.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "It's okay to ghost someone after one date.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Read receipts should be mandatory.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Texting back fast shows you care.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "It's okay to check your partner's phone.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Opposite attracts is a myth.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "You should date your best friend.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Rebounds can turn into real relationships.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Online dating is the best way to meet people.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Meeting through friends is outdated.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "The 'spark' is overrated.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Attraction can grow over time.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "You can be in love with two people.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Jealousy shows you care.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Social media has done more harm than good.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Influencers have real jobs.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Cancel culture has gone too far.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "AI will make life better, not worse.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Your phone is always listening to you.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Electric cars are the future.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Self-checkout is superior.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Cash apps ruined splitting bills.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Password sharing should stay legal.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Subscription services have gone too far.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Removing headphone jacks was wrong.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Android is better than iPhone.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Dark mode is objectively better.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "WiFi on planes should be free.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Screen time limits are pointless.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Smart home devices are creepy.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Facial recognition is dangerous.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Cryptocurrency will replace money.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Remote work is here to stay.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "The metaverse will fail.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Social media age limits should be enforced.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Algorithms know us better than we know ourselves.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "We should pay for our own data.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "The internet was better before smartphones.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Email should die.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Texting killed phone calls for good reason.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Voice messages are annoying.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Video calls are exhausting.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "Two-factor authentication is worth the hassle.",
+      "category": "debates",
+      "vibe": "party"
+    },
+    {
+      "text": "We share too much online.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Do you believe in ghosts?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Do aliens exist?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Do we have free will?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Is there life after death?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Do you believe in fate?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Is time travel possible?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Do parallel universes exist?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Can animals think and feel like humans?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Do we live in a simulation?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Is human nature inherently good or evil?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Can war ever be justified?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Is capital punishment ever acceptable?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Should drugs be legalized?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Is privacy a right or a privilege?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Do wealthy countries owe poor countries?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Is suffering necessary for growth?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Can money buy happiness?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Is ignorance really bliss?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Does everything happen for a reason?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Is morality objective or subjective?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Can you love someone you don't respect?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Is it possible to be truly selfless?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Do humans need religion?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Should euthanasia be legal?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Is democracy the best system?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Can ends justify means?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Is revenge ever justified?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Should we colonize other planets?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Would you want to live forever?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Is it better to be feared or loved?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Marriage is an outdated institution.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Everyone should go to therapy.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "College is overrated.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Tipping culture has gone too far.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Dress codes are outdated.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Political correctness has gone too far.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Participation trophies ruined a generation.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Social media is making us lonelier.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Hustle culture is toxic.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Work-life balance is a myth.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Billionaires shouldn't exist.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Voting should be mandatory.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Universal basic income would work.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Healthcare should be free.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Education should be free.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "The news is more entertainment than information.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Social movements lose steam too quickly.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Celebrity opinions matter too much.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Sports players are overpaid.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Teachers are underpaid.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Stay-at-home parenting is undervalued.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Having kids is selfish in today's world.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Adopted kids aren't less 'yours'.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "You don't owe your family anything.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Blood doesn't make family.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Moving away from hometown is necessary for growth.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Small towns are better than cities.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Cities are better than suburbs.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Owning a home is overrated.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Renting isn't throwing money away.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If you could become immortal but never die, would you?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Would you take a pill to forget your worst memory?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If you could know the day you die, would you want to?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Would you sacrifice one person to save a hundred?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If you could read minds, would you want to?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Would you give up a year of life to be attractive?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If aliens invited you to space forever, would you go?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Would you take guaranteed mediocrity over possible greatness?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If you could start a country, would you lead it?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Would you relive your life knowing everything?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If humanity was on trial by aliens, could we be defended?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Would you press a button for $1M if a stranger died?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If you could erase one invention, what would it be?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Would you want to know how everyone really sees you?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If you could change one historical event, should you?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Would you give up all technology for inner peace?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If we could end all disease, should we?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Would you rather have answers or better questions?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If you could implant one idea in everyone, what would it be?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Would the world be better without social hierarchy?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "The world would be better without alcohol.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "The world would be worse without religion.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Humans peaked as a species.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Technology is advancing faster than we can adapt.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Most traditions exist for no good reason.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Nostalgia is a form of depression.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Hope is more dangerous than fear.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Boredom is necessary for creativity.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Failure is more valuable than success.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Pain is the best teacher.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Comfort zones are where dreams die.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Regret is a waste of emotion.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Comparison is the thief of joy.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Perfectionism is procrastination in disguise.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Busy is the new lazy.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Being kind is more important than being right.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Forgiveness is for yourself, not them.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Closure is a myth.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "You can't change anyone but yourself.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "The truth doesn't always set you free.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Secrets are sometimes necessary.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "White lies are still lies.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Loyalty can be toxic.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Independence is overrated.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Vulnerability is strength.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confidence can be learned.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Charisma can be learned.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Intelligence is overrated.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Emotional intelligence matters more than IQ.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Common sense isn't common.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "First impressions are usually wrong.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "People should be required to vote.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Astrology is just for fun, not real.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "You can judge a book by its cover.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Success is mostly luck, not hard work.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Everyone has a price.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "All publicity is good publicity.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Nice guys finish last.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Opposites attract.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Time heals all wounds.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Actions speak louder than words.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Distance makes the heart grow fonder.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "What doesn't kill you makes you stronger.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Blood is thicker than water.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Money is the root of all evil.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Honesty is always the best policy.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Beauty is only skin deep.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Practice makes perfect.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "You can't teach an old dog new tricks.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Love conquers all.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Good things come to those who wait.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "The customer is always right.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Rules are meant to be broken.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Age is just a number.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Ignorance is no excuse.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Two wrongs don't make a right.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "The early bird gets the worm.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Silence is golden.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Laughter is the best medicine.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Home is where the heart is.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Birds of a feather flock together.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Great minds think alike.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Seeing is believing.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Better late than never.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Out of sight, out of mind.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "When in Rome, do as the Romans do.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "All's fair in love and war.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "The grass is always greener.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Beauty fades but personality is forever.",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "What do you think dogs and cats actually understand about the world?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If someone is born deaf and blind, what language do they think in?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "What do you think will be the downfall of humanity?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If someone grew up in the wilderness without human contact, how 'human' would they be?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If freedom is doing what you want, are animals freer than humans?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Do you believe in past lives?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Why don't we take more advantage of having infinite knowledge at our fingertips?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "Would you go back to a time with no phones or social media?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "If life has no inherent purpose, does that free you or burden you?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "What would you genetically change about humans to make us better?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "An alien invites you on a trip through the cosmos but you can never return. Do you go?",
+      "category": "debates",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your go-to excuse to cancel plans?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What did you believe way too long as a kid?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "Describe your worst fashion era.",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the dumbest thing you've cried about?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What embarrassing song is secretly on your playlist?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most embarrassing public moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most embarrassing text you've sent?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most embarrassing autocorrect fail?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most embarrassing first date?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most embarrassing family moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most embarrassing work moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most embarrassing drunk moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'I can't believe I said that' moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst wardrobe malfunction?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst hair decision?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst tattoo or piercing story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the weirdest thing you've been caught doing?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most cringe social media post?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What photo should never see the light of day?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What nickname do you hate?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your cringiest phase?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most awkward encounter with a crush?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst 'reply all' or wrong chat moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst public bathroom story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst airplane story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a lie you told that got way out of hand?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most dramatic overreaction?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your pettiest moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most irrational fear and how did it start?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the weirdest compliment you've received?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst date story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your best date story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your wildest dating app story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst rejection story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your boldest move on someone?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst pickup line attempt?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the longest you've ever been ghosted?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your craziest ex story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the worst gift you've received from a partner?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the biggest lie you told on a first date?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst 'meeting the parents' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst 'caught in the act' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the most embarrassing thing a partner found out?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the pettiest reason you've ended things?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the weirdest reason you've liked someone?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your rebound story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'one that got away' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'we were on a break' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your jealousy gone wrong story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst fight in a relationship?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your craziest make-up story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst miscommunication in a relationship?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'I knew they were the one' moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'I knew it was over' moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'should have seen the red flag' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your workplace romance story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your long-distance relationship struggle?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your ex-related social media mistake?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your drunk text to an ex story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'we dated and stayed friends' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "Tell us your most chaotic night out.",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your wildest party story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your craziest road trip story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your best vacation story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst vacation story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'how did I survive that' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your near-miss with the law?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your strangest encounter with a celebrity?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most random adventure?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your best 'wrong place, right time' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst 'wrong place, wrong time' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your craziest concert experience?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your wildest festival story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your best spontaneous decision?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst spontaneous decision?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'I can't believe I did that' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'I'll never do that again' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your lost and found story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your missed flight or train story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your foreign country mishap?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your language barrier disaster?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your food poisoning story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your hospital visit story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'we got kicked out' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your sneaking in somewhere story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'how did we pull that off' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your stranded somewhere story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your lost wallet or phone story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'found money' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your stranger kindness story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst job interview?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst day at work?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most awkward work moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'I almost got fired' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your quitting story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst boss story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst coworker story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your office drama story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your work email disaster?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'meant to send privately' at work story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your falling asleep at work story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your showing up to work wrong story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst presentation story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your school cheating story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your worst teacher experience?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your detention or suspension story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your school crush story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your cafeteria moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your gym class horror story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your school picture disaster?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your graduation moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your college move-in story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your roommate horror story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your all-nighter story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your finals week breakdown?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your side hustle story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your career pivot story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your networking disaster?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'fake it till you make it' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your imposter syndrome moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a time you completely misread a situation?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What rumor have you heard about yourself?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'and then it got worse' story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your childhood misconception?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your Santa/Tooth Fairy revelation story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'kids say the darndest things' moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your sibling rivalry story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your parents caught you doing story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your family vacation disaster?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your holiday gone wrong story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your family secret you discovered?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your weird family tradition?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your family reunion story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your extended family drama?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'I'm becoming my parents' moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your moving out story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your going back home story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your pet disaster story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your childhood injury story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your imaginary friend story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'I was that kid' moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your school play disaster?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your birthday party story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your sleepover story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your summer camp story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your learning to drive story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your first car story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your first job story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your first apartment story?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'adulting is hard' moment?",
+      "category": "stories",
+      "vibe": "party"
+    },
+    {
+      "text": "What have you never told this group?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "When did you realize YOU were the problem?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a toxic trait you still haven't fixed?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What apology do you still owe someone?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "Tell us something that might change how we see you.",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What thought do you have often but never say?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What have you never forgiven yourself for?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "When did you act against your own values?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a secret you've kept from everyone here?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the biggest lie you've told someone you dated?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "When were you truly ashamed of yourself?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you've never told your parents?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What relationship did you end that you regret?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the hardest conversation you've had?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you did that you can't take back?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "When did you become someone you didn't want to be?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your biggest 'what if' that haunts you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a time you chose the wrong person?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you've never said out loud?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your biggest regret?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your deepest insecurity?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What mask do you wear in public?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What would people be surprised to know about you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the hardest thing you've been through?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's made you cry recently?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What fear have you overcome?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the bravest thing you've done?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the kindest thing someone's done for you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the kindest thing you've done?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What are you most grateful for right now?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest drunk story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest high story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest text mix-up?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest autocorrect?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest misheard lyric?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest wrong assumption?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest cultural misunderstanding?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest 'new to the city' moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest cooking disaster?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest DIY fail?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest gym moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest shopping story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest customer service call?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest Uber/Lyft story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest airport moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest hotel story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest blind date?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest 'tried to be smooth' fail?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest 'nailed it' moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest inside joke origin?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest photo bomb?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest video call disaster?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest late night purchase?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest 'I woke up and' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your funniest 'seemed like a good idea' moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your most random celebrity encounter?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the wildest thing you've witnessed in public?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the strangest conversation you've overheard?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the weirdest thing that's happened to you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'nobody would believe this' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your biggest 'I told you so' moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your biggest 'trust your gut' moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your biggest gamble that paid off?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your biggest gamble that didn't?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the hardest you've worked for something?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the easiest success you've had?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your proudest moment no one knows about?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your darkest moment no one knows about?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your most 'out of character' moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your most 'that's so you' moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a time you stood up for yourself?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a time you wish you had stood up?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a time you stood up for someone else?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a time you walked away?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a time you should have walked away?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a door that closed that led to a better one?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a 'blessing in disguise' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a 'be careful what you wish for' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your transformation story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your comeback story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'how did I get here' moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'this is exactly where I'm supposed to be' moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a time you chose yourself?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a time you should have chosen yourself?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'the universe has my back' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'I made my own luck' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your biggest plot twist?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the craziest thing you've witnessed?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the most random place you've made a friend?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'small world' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your serendipity story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your sliding doors moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a conversation that changed everything?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a book that changed your life?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a movie that changed your perspective?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a song that got you through something?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a place that changed you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a person who changed your trajectory?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a failure that led to success?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a success that felt like failure?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a time you were completely wrong?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a time you were vindicated?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your most humbling experience?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your most empowering experience?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the most unexpected place you've cried?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the most unexpected thing that made you emotional?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'never judge a book' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'first impressions matter' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your redemption story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'full circle' moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'if only they could see me now' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'what would younger me think' moment?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the longest you've kept a secret?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a secret you accidentally spilled?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a secret someone spilled to you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'I can't believe that worked' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'that should not have worked' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your best networking story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your worst networking story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'right place right time' career story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'overnight success that took years' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the hardest goodbye you've said?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the hardest hello you've had to make?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the most growth you've had in one year?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a year you'd like to forget?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a year you'd like to relive?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your phoenix rising story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'rock bottom to redemption' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the bravest thing you've ever done for love?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the bravest thing you've done for yourself?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the scariest thing you've done that was worth it?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a risk that didn't pan out but you don't regret?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'everything happens for a reason' proof?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your 'sometimes bad things just happen' story?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the most unexpected thing you've learned about yourself?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the most unexpected thing you've learned about life?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What did heartbreak teach you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What did loss teach you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What did success teach you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What did failure teach you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What did your 20s teach you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What have your relationships taught you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What has your career taught you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What has being alone taught you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What has traveling taught you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What has grief taught you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What has love taught you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What has pain taught you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What has joy taught you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What has time taught you?",
+      "category": "stories",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your favorite emoji and why does it represent you?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If your life were a movie, what genre would it be?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would your alternate universe name be?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the most 'you' thing about your room/apartment?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What era of your life would you relive?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would you be famous for in an alternate life?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If your personality was a weather, what would it be?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a word you overuse?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your signature move on the dance floor?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your go-to karaoke song?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most useless talent?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your party trick?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the weirdest thing you're nostalgic for?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What smell instantly transports you somewhere?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What song do you know every word to?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What movie can you quote the most?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your comfort TV show you've watched too many times?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your phone wallpaper and why?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the last thing you searched on Google?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's always in your fridge?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your ideal Sunday morning?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your guilty pleasure you're not guilty about?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the most spontaneous thing you've ever done?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your relationship with your phone like?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the best purchase you've made under $50?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's on your bucket list that would surprise people?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your love language?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your Enneagram/MBTI and do you agree with it?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your toxic trait you're kind of proud of?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your green flag that you wish people noticed?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your favorite concert you've been to and why?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "Where's the coolest place you've ever traveled?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your death row meal?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the best meal you've ever had?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the most beautiful thing you've ever seen?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a moment that felt straight out of a movie?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your 'main character' moment?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the luckiest thing that's happened to you?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a small decision that changed your life?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's something you did once and will never do again?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your near-death experience?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your craziest travel story?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your best 'wrong place, right time' story?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a time you were completely starstruck?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most expensive mistake?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's something you bought that was totally worth it?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the best gift you've ever received?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the best gift you've ever given?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a compliment you've never forgotten?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's an insult you've never forgotten?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a random act of kindness you still remember?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's something a stranger said that stuck with you?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the weirdest coincidence you've experienced?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a moment you felt truly free?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a moment you felt truly alive?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a moment you'll never forget?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a time you laughed so hard you cried?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the most fun you've had sober?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the most fun you've had period?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a time you surprised yourself?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you won the lottery, would you keep working?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you had all the money in the world, what jewelry would you wear?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would your dream house have that's unusual?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would your perfect day look like?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you could have any job for a day, what would it be?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you could master any skill instantly, what would it be?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you could live anywhere for a year, where?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you could have dinner with anyone dead or alive, who?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you could witness any historical event, which one?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you could be any age forever, what age?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you could relive any year of your life, which one?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you could switch lives with someone for a day, who?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If your life had a theme song, what would it be?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you wrote an autobiography, what would the title be?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would your TED talk be about?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would you want to be reincarnated as?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What superpower would you actually want?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What fictional world would you live in?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What video game would you want to live in?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you could only eat one cuisine forever, which one?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you could only drink one alcohol forever, which one?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you could only listen to one artist forever, who?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "If you could only watch one movie forever, which one?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would you do if you knew you couldn't fail?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would you attempt if money wasn't an issue?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would you change about your childhood?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would you tell your younger self?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would your 80-year-old self think of your choices?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What do you want written on your tombstone?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What do you want people to say at your funeral?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's an uncommon belief you hold?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a hill you'll die on?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What will you absolutely never do?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What rule do you always break?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's something everyone should try at least once?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's overrated that everyone loves?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's underrated that nobody talks about?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What food should disappear from Earth?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What trend do you not understand?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What tradition do you actually love?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What tradition makes no sense to you?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the best dipping sauce and why?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most controversial food opinion?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your most controversial opinion in general?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a popular thing you just can't get into?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's something you changed your mind about?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What belief did you hold that you no longer do?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's something you used to hate but now love?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's something you used to love but now hate?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What do you value most in a friendship?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What do you value most in a partner?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What do you look for in a job?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What makes a house feel like home?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What makes life worth living?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the meaning of success to you?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's your definition of happiness?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What do you think happens when we die?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "Do you believe in fate or free will?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "Do you think everything happens for a reason?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What gives your life meaning?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "Where do you find purpose in your life?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What legacy do you want to leave behind?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What do you want your kids to remember about you?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has been the most influential person in your life?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What do you know now that you wish you knew at 18?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "How do you define a 'good life'?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the hardest lesson you've had to learn?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What have you been avoiding dealing with?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What are you most afraid of that you don't talk about?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the thing you're most proud of that nobody knows?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What part of your identity are you still figuring out?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What do you think about when you can't sleep?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's one thing you wish people understood about you?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a question you're afraid to know the answer to?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What have you sacrificed that you sometimes wonder about?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's the version of yourself you're working toward?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What conversation have you been putting off?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's something you need to forgive yourself for?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's a decision you're currently struggling with?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's keeping you from being truly happy?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would you do if you weren't afraid?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What would you regret not doing if you died tonight?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What do you need to let go of?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What do you need more of in your life?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's draining your energy right now?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What's giving you energy right now?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "When do you feel most like yourself?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "When do you feel most at peace?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What does your ideal future look like?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What scares you about the future?",
+      "category": "reflection",
+      "vibe": "party"
+    },
+    {
+      "text": "What did you learn about yourself during lockdown?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "Could you live in another country? Where and why?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a relationship that shaped who you are?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the best advice you've ever received?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What advice do you give that you don't follow?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you learned from a stranger?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you learned from a heartbreak?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you learned from a failure?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would you call at 3am in a crisis?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who knows you better than anyone?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who do you need to reconnect with?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who do you miss right now?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What friendship have you outgrown?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What relationship taught you the most?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What do you bring to your friendships?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What type of friend are you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What type of partner are you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your attachment style?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your biggest relationship green flag?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship red flag?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your dealbreaker in relationships?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's non-negotiable in your life?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What do you need from your friends?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What do you need from a partner?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What have your exes taught you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship pattern?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "How have your parents shaped your view of love?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What did your childhood teach you about money?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What did your childhood teach you about conflict?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What did your childhood teach you about yourself?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your go-to order at a coffee shop?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your signature dish to cook?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's always on your grocery list?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your morning routine?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your nighttime routine?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your procrastination method?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your stress relief?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your love language for yourself?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your self-care non-negotiable?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your favorite way to waste time?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your unpopular music opinion?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your unpopular movie opinion?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your unpopular life opinion?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you're weirdly competitive about?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you're irrationally passionate about?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you're low-key obsessed with?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you could talk about for hours?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you know too much about?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your random area of expertise?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What conspiracy theory do you kind of believe?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your hot take?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your controversial stance?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your soapbox topic?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something that always makes you cry?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something that always makes you laugh?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your comfort movie?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your comfort food?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your comfort song?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your happy place?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your safe space?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "At what point do you think technology has gone too far?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What role does music play in culture?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "Which is more important: the human body or mind?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the most worthwhile place to find meaning?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "If you could live in any era, when and why?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What did you learn about yourself during hardship?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a belief you held strongly that changed?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you pretend to have figured out?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What would you install in a newborn's mind as advice?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What do you do repeatedly that you hate?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "When you look at the past, what do you miss most?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your biggest day-to-day challenge?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship with time?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship with money?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship with success?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship with failure?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "How do you handle uncertainty?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "How do you handle change?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "How do you handle conflict?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "How do you handle criticism?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What motivates you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What inspires you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What frustrates you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What calms you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What excites you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What bores you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What challenges you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What scares you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What fulfills you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What completes you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the last thing that made you belly laugh?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something small that brings you joy?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your morning non-negotiable?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your evening non-negotiable?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the last thing you learned?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you're currently obsessed with?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the best thing about your life right now?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the hardest part of your life right now?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What season of life are you in?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What chapter would this be in your autobiography?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a goal you're working toward?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a dream you've given up on?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a dream you're still chasing?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you've outgrown?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you've grown into?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a boundary you've set recently?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's a boundary you need to set?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you're healing from?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's something you've healed from?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the best thing you've done for yourself?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your current self-improvement focus?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What habit are you trying to build?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What habit are you trying to break?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship with exercise?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship with food?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship with sleep?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship with social media?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship with alcohol?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship with work?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your relationship with rest?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What does self-care look like for you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What does success look like for you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What does happiness look like for you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What does love look like for you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What does home look like for you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What does friendship look like for you?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your definition of rich?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your definition of healthy?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your definition of fulfilled?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your definition of alive?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What would you do if you had 6 months to live?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What would you do if you had 10 years to live?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What would you do if you were guaranteed success?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What would you do if no one was watching?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What would you do if you weren't afraid?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What would you change if you could start over?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What would you keep exactly the same?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the biggest risk you've taken?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's the biggest risk you want to take?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's holding you back?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's pushing you forward?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What keeps you up at night?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What gets you out of bed?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What makes you feel most alive?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What makes you feel most at peace?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What makes you feel most connected?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What makes you feel most loved?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What makes you feel most proud?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What makes you feel most yourself?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What's your safe space?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What role do you think music plays in culture?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "If you knew you were dying tonight, how would you spend it?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "If you could install one piece of advice in a newborn's mind, what would it be?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "What do you do over and over again that you hate doing?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "If you could live in any era, when and why?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "If you could eat anything right now, what would it be?",
+      "category": "reflection",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to fly or be invisible?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Read minds or see the future?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Never use social media again or never watch TV/movies again?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have free WiFi everywhere or free coffee everywhere?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Always be 10 minutes late or 20 minutes early?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Give up music or movies forever?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Live without AC or without heating?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a rewind button or pause button for life?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Know how you die or when you die?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be famous but broke or unknown but rich?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Only eat sweet or only eat savory for life?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be able to talk to animals or speak every language?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Live twice as long or win the lottery?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have unlimited money or unlimited time?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be the smartest person or the most attractive?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have no internet or no phone for a year?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Give up coffee or alcohol forever?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be always cold or always hot?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Lose your sight or your memories?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have one wish granted now or three wishes in 10 years?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be with someone safe or someone exciting?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have closure or have hope?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Know what everyone thinks of you or never know?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be hurt by someone you love or hurt someone who loves you?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Relive your past or see your future?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be famous while living but forgotten, or unknown but famous after death?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be held in high regard by parents but not friends, or friends but not parents?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a partner who's always honest or always kind?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Date someone funny or someone successful?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be with your soulmate for 1 year or a good match forever?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be cheated on and not know, or know but stay?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Never fight with your partner or always make up passionately?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Date someone your family loves but you don't, or vice versa?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be single forever or in a mediocre relationship?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have your dream partner who travels for work, or an okay partner always there?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Know all your partner's thoughts or have them know all yours?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a partner who's great on paper or gives you butterflies?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Marry rich with no love or struggle with your soulmate?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be loved more or love more in a relationship?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have perfect communication or perfect chemistry?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have less work you hate or more work you enjoy?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have your dream job or a job that pays 4x more?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Work one long day a week or six short days?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Never work again or do what you love forever?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be your own boss and stressed, or an employee and relaxed?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have guaranteed success or unlimited potential?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be respected at work or liked at work?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a high-paying job you're bad at or low-paying job you excel at?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be the best at one thing or good at everything?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Peak now or peak later?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be famous for something embarrassing or unknown for something great?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have your work recognized after you die or make money now but be forgotten?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be a struggling artist or a successful accountant?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have job security or job excitement?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Work from home forever or never work from home?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a perfect resume or perfect references?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be overqualified or underqualified for your job?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have more vacation days or higher salary?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Work with your best friend or your partner?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be an expert in one field or know a bit about everything?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Give up weed or alcohol for life?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have an infinity pool over the ocean or hot tub over mountains?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be 25 or 35 for the rest of your life?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a machine that does laundry and puts it away, or dishes?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have your dog live forever or get $100,000?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Always get stuck in traffic or always have slow internet?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be the first to explore a planet or cure a deadly disease?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a personal chef or personal trainer for life?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Never be stuck in traffic or never have a slow internet connection?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Live in the city or the countryside?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Live in your dream house in an okay location or okay house in dream location?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a beautiful house or a beautiful car?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have an unlimited wardrobe or unlimited travel?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be able to eat anything without gaining weight or need only 4 hours of sleep?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a pause button for your life or a mute button for others?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have your dream car or your dream vacations?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be allergic to your favorite food or your pet?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Never have to clean or never have to cook?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a photographic memory or perfect creativity?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be able to teleport or freeze time?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Lose the ability to see or hear?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a horribly corrupt government or no government?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be transported 500 years in the future or past?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Go to jail for 4 years for something you didn't do, or get away with something horrible?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Live in the same state forever or move every few months?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Know how you're going to die or when?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Press a button for $1M but a stranger dies, or don't?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Eat meat but watch the animal die each time, or go plant-based?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Flip a coin: heads $10B, tails instant death. Would you flip?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be alone forever or settle for less?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have eternal life but watch everyone you love die, or live normally?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Save your best friend or five strangers?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "End world hunger or all wars?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Know the truth about everything or be blissfully ignorant?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Eliminate all your pain or double your happiness?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be forgotten but achieve great things, or remembered but mediocre?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have the ability to change the past or guarantee the future?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Experience everything once or master one thing?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Know everything about the universe but be unable to share, or know nothing?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be loved for someone you're not or hated for who you are?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have hands for feet or feet for hands?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Sweat mayonnaise or cry hot sauce?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a constantly full phone battery or full gas tank?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be trapped in a romantic comedy with enemies or horror movie with friends?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have your enemy pick your tattoo or never travel again?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Fight one horse-sized duck or 100 duck-sized horses?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a British accent or Australian accent forever?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Smell like onions or have to eat only onions?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have fingers as long as your legs or legs as short as your fingers?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Speak every language but with a terrible accent, or one language perfectly?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be itchy forever or sticky forever?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have no elbows or no knees?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be able to breathe underwater or fly but only 2 feet off the ground?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a third eye or a third arm?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have all traffic lights be green or never wait in line?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be immune to hangovers or never need sleep?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have everything you eat taste like pizza or everything you drink taste like coffee?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be overdressed or underdressed for every occasion?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Only be able to whisper or only be able to shout?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have your thoughts appear in a speech bubble or your emotions change your skin color?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Go back to meet your ancestors or forward to meet your descendants?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be stuck in a broken ski lift or elevator?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have $5M now or $50M in 20 years?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be the funniest person in the room or the smartest?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have everyone know your secrets or know everyone's secrets?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be able to detect lies or get away with any lie?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have a great short-term memory or great long-term memory?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be feared or be loved?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Control fire or control water?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Live in a world with no problems or learn from your mistakes?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have more time or more money?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be stranded on an island alone or with someone you hate?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have fame without fortune or fortune without fame?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Live in the Harry Potter universe or the Marvel universe?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be a famous director or a famous actor?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be immune to all diseases or never age past 30?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have perfect memory of the past or perfect prediction of future?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be insanely lucky or insanely talented?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have the answer to every question or the solution to every problem?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Restart your life from birth with your memories or live on as you are?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be remembered for your achievements or your kindness?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have wisdom or intelligence?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be extremely book smart or extremely street smart?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Always tell the truth or always get away with lies?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be ugly and live forever or attractive and die in 10 years?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Lose all your friends and keep your memories, or keep friends but lose memories?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Experience the beginning or the end of the universe?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Have world peace or end world hunger?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Meet your future self or your past self?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Know how everyone sees you or never know?",
+      "category": "wouldYouRather",
+      "vibe": "party"
+    },
+    {
+      "text": "Be able to fix any relationship or erase any memory?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be always content or sometimes extremely happy?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have certainty or endless possibilities?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be at peace with the past or excited for the future?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have one close friend or 100 acquaintances?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Know when people are lying or be the best liar?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to talk to the dead or see the future?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Control your dreams or never need to sleep?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have more confidence or more talent?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be fearless or feel no pain?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have your browser history made public or your bank statements?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have everyone read your texts or your emails?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Give up all social media or all streaming services?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have your Spotify public or your search history?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Delete all social media or delete all photos on your phone?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Lose your phone or lose your wallet?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have unlimited battery or unlimited storage?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Use only emojis to text or only voice messages?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Accidentally 'like' an ex's old photo or send a text to the wrong person?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have unlimited skips on Spotify or no ads on YouTube?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Only be able to communicate through memes or GIFs?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a private jet or a yacht?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Meet your childhood hero or your future self?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have your life narrated by Morgan Freeman or Samuel L. Jackson?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be a viral meme for something good or something embarrassing?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have dinner with any historical figure or any current celebrity?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to change one decision or see the outcome of decisions before making them?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have no awkward silences or no misunderstandings?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to perfectly cook one dish or decently cook anything?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a superpower you can't control or no superpower at all?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Lose an arm or a leg?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be blind or deaf?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Never use the internet again or never travel again?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Give up cheese or bread?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have chronic pain or chronic itch?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be too hot all the time or too cold?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Speak your mind always or never speak at all?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Know you'll die at 50 healthy or at 90 sick?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have your heart broken or never know love?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be rich and stressed or poor and relaxed?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be completely alone for 5 years or never alone for 5 years?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Tell all your secrets or hear all your friends' secrets about you?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Forget everyone you know or have everyone forget you?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be wrongly imprisoned for a year or lose 10 years of your life?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Never eat your favorite food again or only eat your favorite food?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Lose your best friend or all other friends?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have no privacy or no social connections?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be ordinary in a world of superheroes or super in an ordinary world?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Know when you'll die or how you'll die?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "End all suffering or create unlimited happiness?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Live in a tree house or underground?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have no taste or no smell?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to change your eye color or hair color at will?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a personal assistant or personal driver?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be a morning person or night owl?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have super strength or super speed?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to control fire or water?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Live without music or without television?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to talk to plants or minerals?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a pause button for your life or a rewind?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Know sign language or morse code?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be a famous athlete or famous musician?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a magic carpet or a magic wand?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to remember everything or forget anything you want?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have free plane tickets or free hotel stays?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be too busy or too bored?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a great body or great mind?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be overdressed or underdressed?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a terrible boss or terrible coworkers?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Work 4 10-hour days or 5 8-hour days?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have no AC in summer or no heat in winter?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to see 10 years into the future or change 10 years in the past?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a cook who makes only healthy food or a chef who makes anything you want?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be the oldest sibling or youngest?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have your first child at 20 or 40?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be caught singing in the mirror or dancing alone?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have everyone read your mind for a day or be able to read everyone's?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be completely fearless or have no enemies?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a guaranteed $100k/year or 50% chance of $500k/year?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be famous in your lifetime or legendary after death?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Live without your phone or your car?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have unlimited sushi or unlimited tacos?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be a vampire or a werewolf?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have super hearing or super vision?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be stranded in the mountains or on a deserted island?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to breathe underwater or walk on water?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have the power of persuasion or the power of prediction?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be immune to cold or immune to heat?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have no sense of humor or no common sense?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be the hero or the villain?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have more time or more money?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to eat anything without consequences or drink anything?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have the ability to change one thing about your past or guarantee one thing in your future?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be incredibly funny or incredibly smart?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have telepathy or telekinesis?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to stop time for everyone but you or speed up time for only you?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a job you love that pays little or a job you hate that pays well?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be forgotten or hatefully remembered?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have true love or 10 million dollars?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to end all wars or world hunger?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have wisdom or knowledge?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to cure any disease or end all poverty?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Live in a world without problems or learn from mistakes?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to undo any mistake or predict any outcome?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have certainty in life or the excitement of the unknown?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be admired or understood?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be envied or pitied?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have all your wishes granted or grant everyone else's wishes?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Live your perfect fantasy or experience every real thing?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have closure with the past or certainty about the future?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to talk your way out of anything or fight your way out?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a photographic memory for books or conversations?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be immune to hangovers or immune to jet lag?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to speak to the dead or see the future?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a pause button for conversations or a mute button for people?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be famous on YouTube or famous on TikTok?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have your dream home fully paid or $1 million cash?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to perfectly remember or perfectly forget?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Live in a world without mirrors or without cameras?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have one extra hour every day or one extra day every week?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to see into the past or the future?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a do-over button or a fast-forward button?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to clone yourself or shapeshift?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have unlimited stamina or unlimited patience?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to speak every language or play every instrument?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have more followers or more friends?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be the best player on a losing team or worst player on a winning team?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a good work ethic or natural talent?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to control dreams or never need to dream?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have the respect of your peers or the admiration of strangers?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to experience any historical moment or meet any historical figure?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have the power to heal others or the power to heal yourself?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be the most intelligent person or the kindest?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have all your food always be perfect temperature or your shower?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to learn any skill instantly or teach any skill perfectly?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have unlimited first-class travel or a modest home anywhere?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be completely immune to criticism or completely open to it?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have better self-discipline or more self-compassion?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to master any instrument or any sport?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have 10 good friends or 1 best friend?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be rich and lonely or poor and loved?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have a library of every book or every movie?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to control your emotions perfectly or understand others' perfectly?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have the answer to any question or the solution to any problem?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Live in the present moment always or plan perfectly for the future?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to change any law or create any law?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have unlimited creativity or unlimited knowledge?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be remembered for your character or your achievements?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have perfect pitch or perfect rhythm?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be able to pause your aging or reset to 21?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Have less work you hate or more work you enjoy?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Be 25 or 35 for the rest of your life?",
+      "category": "wouldYouRather",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the best music taste?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would survive a zombie apocalypse?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's most likely to go viral for something positive?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who gives the best hugs?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would win any trivia competition?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the most infectious laugh?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would host the best party?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's the best storyteller?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the most random knowledge?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who makes friends everywhere they go?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be the best tour guide?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the best dance moves when no one's watching?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would win a karaoke contest?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's most likely to befriend a stranger in line?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be the best in a crisis?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the best one-liners?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would nail a TED Talk?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the most unique fashion sense?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's the human GPS that never gets lost?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who could talk their way into anywhere?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the best poker face?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would make the best detective?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would survive longest on a deserted island?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's most likely to accidentally start a trend?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who makes the best playlists?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the most impressive hidden talent?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be the best negotiator?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the best reaction face?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who gives the best advice?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be the best travel companion?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would forget where they parked?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would set 8 alarms and still oversleep?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would cry at a commercial with cute animals?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who talks to their pet like they understand?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would trip over nothing in public?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would laugh at the wrong moment?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would like an ex's old photo by accident?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who takes 45 minutes to decide what to order?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would text the group chat thinking it's private?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who falls asleep 5 minutes into any movie?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would lose their keys while holding them?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who narrates their own life in their head?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who rehearses conversations in the shower?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would wave back at someone waving to someone else?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who brings their own snacks to the movies?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the most specific restaurant orders?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's always first to suggest 'one more round'?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who remembers everyone's birthday but forgets their age?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would have the most unhinged Spotify Wrapped?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would screenshot and send to the person?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who double-texts without shame?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has 47 browser tabs open right now?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who could eat the same meal for a week?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who names their plants and talks to them?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who still has Christmas decorations up in March?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who always overdresses?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the most chaotic Notes app?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who uses their flashlight to find their phone in hand?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the most random thing in their bag?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who makes friends in the bathroom on nights out?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would adopt too many pets?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would end up on a reality dating show?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would write a bestselling memoir?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would move to another country on a whim?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would start a successful business?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would learn a language just to watch shows?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would become a famous food blogger?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's side hustle would surpass their main job?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would go back to school at 50?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would host Thanksgiving for 30 and love it?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would befriend their Uber driver?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would spend lottery winnings on others first?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be the fun aunt/uncle?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the best retirement plan?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would send thank you cards?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would plan the best surprise party?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would become a local celebrity?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would have the coolest apartment?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would still go to concerts at 80?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would coach kids' sports?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who runs into someone they know everywhere?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's the designated driver for life?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would create the family group chat?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who still watches cartoons as an adult?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who learned to cook from YouTube?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would have themed birthday parties every year?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the comfiest couch everyone fights over?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who gives the best restaurant recommendations?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would start a podcast?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has a secret side gig?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would slide into a celeb's DMs?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's the best wingman/wingwoman?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would plan the most over-the-top proposal?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who remembers every anniversary?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the most elaborate wedding Pinterest?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who gives the best dating advice?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would write the sweetest love letter?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who plans the best date nights?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would make the first move?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who keeps their relationship super private?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would still be with their high school sweetheart?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would adopt before having bio kids?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would have the longest engagement?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would travel the world before settling down?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would get married in another country?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would stay friends with all their exes?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would date someone completely unexpected?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the strictest type?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who falls in love the fastest?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who takes the longest to commit?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would elope?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would have the biggest wedding?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be the best parent?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be the cool parent?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be the strict parent?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would name their kid something unique?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's already planned their future kids' names?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would homeschool their kids?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be the PTA president?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be the soccer mom/dad?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would go viral for a wholesome video?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would accidentally become a meme?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's pet would become Instagram famous?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would get featured on main character TikTok?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be recognized from a viral moment?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's wedding would go viral for good reasons?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would create the next viral dance?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's text exchange would get screenshotted and shared?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would become a GRWM influencer?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who's Yelp review would be quoted by the restaurant?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would have the best content creator career?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be famous for their hot takes?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would have a fan page dedicated to them?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would accidentally start drama online?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would go viral for their laugh?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be the first verified?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would have the most aesthetic feed?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be a Twitch streamer?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would have the best YouTube channel?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would be famous for their cooking videos?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would you call first in an emergency?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has overcome something you respect?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who makes you feel most like yourself?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the most wisdom?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would you call at 3am falling apart?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who knows exactly what to say when you're down?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has grown the most since you met?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who will achieve amazing things?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would you trust with your deepest secret?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who has the most emotional intelligence?",
+      "category": "exposed",
+      "vibe": "party"
+    },
+    {
+      "text": "Who would you want as a business partner?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would drop everything to help?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the strongest morals?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would be the best mentor?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who's secretly the most thoughtful?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who notices when something's wrong?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would you want on your team?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who brings out the best in everyone?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would give a speech at your wedding?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would bail you out of jail?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will be happiest in 10 years?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will still be close with this group forever?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will achieve their wildest dreams?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will surprise everyone with success?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the brightest future?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will inspire others?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will have the most fulfilling career?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will others look up to?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will make a difference in the world?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the most untapped potential?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will write a book someday?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will be in a documentary?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will start something that outlasts them?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will travel to the most countries?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will master something new?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will be rich before 40?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will be famous before 50?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will change careers most dramatically?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will live the longest?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who will have the most interesting life story?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the healthiest approach to relationships?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who loves the hardest?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would you set up with your best friend?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who's best at maintaining friendships?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who apologizes most genuinely?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who forgives most gracefully?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who's the best listener?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who remembers the little things about people?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who makes everyone feel included?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would be first to check in during hard times?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who's the glue of the group?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the most loyal friends?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who makes friendships that last decades?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would be best to travel with long-term?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the best relationship with their parents?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would take a bullet for a friend?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would give you their last dollar?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would help you hide a body (jk...or)?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who keeps secrets the best?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who always shows up when they say they will?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who's the most authentic?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who's most at peace with themselves?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who's had the most impressive growth?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who inspires you to be better?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who's the most resilient?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the healthiest mindset?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who figures things out their own way?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who's most comfortable being alone?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has found their purpose?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would handle fame the best?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has their life most together?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the best work-life balance?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who handles stress the best?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who stays calm in chaos?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who bounces back from failure fastest?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who learns from their mistakes?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would you go to for wisdom?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would you want as your therapist?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would you want as your life coach?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the most interesting perspective on life?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would survive a horror movie?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would be first eliminated in a reality show?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win Survivor?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win The Amazing Race?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win a cooking competition?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win a dance competition?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win a debate?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win in a fight?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win a staring contest?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win a trivia night?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win the lottery and tell no one?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win the lottery and buy something crazy?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would find $100 and turn it in?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would find $100 and keep it?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would return a shopping cart in the rain?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who lets people merge in traffic?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who never picks up the phone?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who leaves voice messages?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who reads terms and conditions?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the most subscriptions they forgot about?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would cry if they won a stuffed animal?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would get too competitive at game night?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would cheat at Monopoly?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would flip the Monopoly board?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would research every menu before going out?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who takes the longest to get ready?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who's always running 5 minutes late?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the most alarms set?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the messiest car?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has the cleanest car?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has road rage?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who gives directions using landmarks instead of streets?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would stop to help a stranger?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would walk past someone struggling?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who carries cash for homeless people?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would adopt a stray animal on the spot?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who has already named their future pets?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who cries at every wedding?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who catches the bouquet?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who ends up at the after-party's after-party?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would join a flash mob?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would start a flash mob?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would accidentally join a cult?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would escape a cult first?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would survive being lost in the woods?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would get cast on a TV show?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would write a hit song?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would invent something useful?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win a Nobel Prize?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would be on a magazine cover?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would have a Wikipedia page?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would be studied in history class?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would have a building named after them?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would have a holiday named after them?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would be elected to office?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would run for president as a joke and win?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would become a cult leader?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would join a commune?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would live off the grid?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would thrive in prison?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would survive alone for a month?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win a spelling bee?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win a math competition?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win a creative writing contest?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would be the best babysitter?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would be the worst babysitter?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would win in a cooking competition?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would burn water trying to cook?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would have the best garden?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would kill every plant they own?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would be the best personal trainer?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would skip the gym for a year?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would finish a marathon?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would quit at mile 1?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would write the best wedding speech?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would cry through their wedding speech?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would throw the best bachelor/bachelorette party?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would get lost at their own party?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would remember every detail of tonight?",
+      "category": "exposed",
+      "vibe": "deep"
+    },
+    {
+      "text": "Who would forget tonight by tomorrow?",
+      "category": "exposed",
+      "vibe": "deep"
+    }
+  ]
+}

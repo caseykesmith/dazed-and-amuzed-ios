@@ -67,6 +67,12 @@ class GameViewModel: ObservableObject {
     }
     
     func nextQuestion() {
+        // Safety check - make sure we have questions
+        guard !allQuestions.isEmpty else {
+            print("❌ No questions loaded!")
+            return
+        }
+        
         let availableQuestions = allQuestions.filter { question in
             // Filter by selected packs
             guard selectedPacks.contains(question.category) else { return false }
@@ -79,10 +85,13 @@ class GameViewModel: ObservableObject {
         if let question = availableQuestions.randomElement() {
             currentQuestion = question
             usedQuestionIDs.insert(question.id)
-        } else {
-            // All questions used, reset
+        } else if !usedQuestionIDs.isEmpty {
+            // All questions used, reset and try once more
             usedQuestionIDs = []
-            nextQuestion()
+            if let question = allQuestions.filter({ selectedPacks.contains($0.category) }).randomElement() {
+                currentQuestion = question
+                usedQuestionIDs.insert(question.id)
+            }
         }
     }
     
