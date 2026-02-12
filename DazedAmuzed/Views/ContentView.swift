@@ -27,7 +27,7 @@ struct ContentView: View {
             case .gamePlay:
                 GamePlayView(viewModel: viewModel)
             case .judgeTurn:
-                HomeView(viewModel: viewModel)
+                JudgeTurnView(viewModel: viewModel)
             case .results:
                 HomeView(viewModel: viewModel)
             }
