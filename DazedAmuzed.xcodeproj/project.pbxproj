@@ -75,10 +75,10 @@
 		E213CCCB2F3D75E500158CBE = {
 			isa = PBXGroup;
 			children = (
-				E213CCD62F3D75E500158CBE /* DazedAmuzed */,
 				E213CCE42F3D75E700158CBE /* DazedAmuzedTests */,
 				E213CCEE2F3D75E700158CBE /* DazedAmuzedUITests */,
 				E213CCD52F3D75E500158CBE /* Products */,
+				E213CCD62F3D75E500158CBE /* DazedAmuzed */,
 			);
 			sourceTree = "<group>";
 		};
