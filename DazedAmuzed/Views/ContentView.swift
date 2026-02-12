@@ -23,7 +23,7 @@ struct ContentView: View {
             case .packSelect:
                 PackSelectView(viewModel: viewModel)
             case .addPlayers:
-                HomeView(viewModel: viewModel)
+                AddPlayersView(viewModel: viewModel)
             case .gamePlay:
                 HomeView(viewModel: viewModel)
             case .judgeTurn:
