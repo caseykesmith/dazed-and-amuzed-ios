@@ -30,6 +30,14 @@ struct ContentView: View {
                 JudgeTurnView(viewModel: viewModel)
             case .results:
                 ResultsView(viewModel: viewModel)
+            case .pickWinner:
+                PickWinnerView(viewModel: viewModel)
+            case .giveSips:
+                if let winner = viewModel.lastWinner {
+                    GiveSipsView(viewModel: viewModel, winner: winner)
+                } else {
+                    GamePlayView(viewModel: viewModel)
+                }
             }
         }
     }

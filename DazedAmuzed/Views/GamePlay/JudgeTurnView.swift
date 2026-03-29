@@ -11,101 +11,116 @@ import SwiftUI
 struct JudgeTurnView: View {
     @ObservedObject var viewModel: GameViewModel
     
+    var cardColor: Color {
+        guard let question = viewModel.currentQuestion else { return AppTheme.pink }
+        switch question.category {
+        case .debates: return Color(hex: "FF6B35")
+        case .wouldYouRather: return Color(hex: "FF2D78")
+        case .stories: return Color(hex: "7B68EE")
+        case .exposed: return Color(hex: "9ACD32")
+        case .reflection: return Color(hex: "20B2AA")
+        case .drinkIf: return Color(hex: "FFD700")
+        }
+    }
+    
+    var categoryName: String {
+        guard let question = viewModel.currentQuestion else { return "" }
+        return question.category.displayName.uppercased()
+    }
+    
+    var categoryIcon: String {
+        guard let question = viewModel.currentQuestion else { return "" }
+        return question.category.icon
+    }
+    
     var body: some View {
         ZStack {
             AppTheme.background
                 .ignoresSafeArea()
             
-            VStack(spacing: 24) {
+            VStack(spacing: 20) {
                 // Header
                 HStack {
                     Button {
                         viewModel.goTo(.gamePlay)
                     } label: {
                         HStack(spacing: 4) {
-                            Image(systemName: "chevron.left")
-                            Text("Back")
+                            Image(systemName: "arrow.left")
+                            Text("Skip")
                         }
-                        .font(AppTheme.bodyFont)
+                        .font(.system(size: 16, design: .rounded))
                         .foregroundColor(AppTheme.textMuted)
                     }
                     Spacer()
                 }
-                .padding(.horizontal, AppTheme.paddingLarge)
+                .padding(.horizontal, 24)
+                .padding(.top, 16)
                 
                 Spacer()
                 
-                // Title
-                VStack(spacing: 8) {
-                    Text("👑")
-                        .font(.system(size: 48))
-                    
-                    Text("Who won this round?")
-                        .font(AppTheme.headlineFont)
-                        .foregroundColor(AppTheme.text)
-                    
-                    Text("Pick the best answer")
-                        .font(AppTheme.bodyFont)
-                        .foregroundColor(AppTheme.textMuted)
+                // Category Label
+                HStack(spacing: 6) {
+                    Text(categoryIcon)
+                    Text(categoryName)
+                        .font(.system(size: 13, weight: .bold, design: .rounded))
+                        .tracking(2)
                 }
+                .foregroundColor(cardColor)
                 
-                Spacer()
-                
-                // Player Selection
-                VStack(spacing: 12) {
-                    ForEach(viewModel.players) { player in
-                        Button {
-                            viewModel.awardPoint(to: player)
-                            viewModel.nextTurn()
-                            viewModel.goTo(.gamePlay)
-                        } label: {
-                            HStack(spacing: 16) {
-                                Text(player.emoji)
-                                    .font(.system(size: 32))
-                                
-                                Text(player.name)
-                                    .font(.system(size: 18, weight: .semibold, design: .rounded))
-                                    .foregroundColor(AppTheme.text)
-                                
-                                Spacer()
-                                
-                                Text("\(player.score) pts")
-                                    .font(AppTheme.bodyFont)
-                                    .foregroundColor(AppTheme.textMuted)
-                            }
-                            .padding(16)
-                            .background(AppTheme.card)
-                            .cornerRadius(AppTheme.cornerRadius)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: AppTheme.cornerRadius)
-                                    .stroke(AppTheme.border, lineWidth: 1)
-                            )
-                        }
+                // Question Card
+                if let question = viewModel.currentQuestion {
+                    VStack(spacing: 16) {
+                        Text(question.text)
+                            .font(.system(size: 26, weight: .bold, design: .rounded))
+                            .foregroundColor(AppTheme.text)
+                            .multilineTextAlignment(.center)
+                            .lineSpacing(4)
                     }
+                    .padding(28)
+                    .frame(maxWidth: .infinity)
+                    .background(cardColor.opacity(0.1))
+                    .cornerRadius(20)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 20)
+                            .stroke(cardColor, lineWidth: 2)
+                    )
+                    .padding(.horizontal, 24)
                 }
-                .padding(.horizontal, AppTheme.paddingLarge)
+                
+                // Instructions
+                Text("Pick one. Explain why. Best logic wins.")
+                    .font(.system(size: 15, design: .rounded))
+                    .foregroundColor(AppTheme.textDim)
+                    .padding(.horizontal, 24)
+                    .padding(.vertical, 12)
+                    .background(AppTheme.card)
+                    .cornerRadius(12)
                 
                 Spacer()
                 
-                // Skip - No Winner
+                // Go Button
                 Button {
-                    viewModel.nextTurn()
-                    viewModel.goTo(.gamePlay)
+                    viewModel.goTo(.pickWinner)
                 } label: {
-                    Text("Skip - No clear winner")
-                        .font(AppTheme.bodyFont)
-                        .foregroundColor(AppTheme.textMuted)
+                    Text("Go →")
+                        .font(.system(size: 20, weight: .bold, design: .rounded))
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 20)
+                        .background(AppTheme.primaryGradient)
+                        .cornerRadius(16)
                 }
+                .padding(.horizontal, 24)
                 
-                // End Game
+                // Skip
                 Button {
-                    viewModel.goTo(.results)
+                    viewModel.nextQuestion()
                 } label: {
-                    Text("End Game & See Results")
-                        .font(.system(size: 16, weight: .semibold, design: .rounded))
-                        .foregroundColor(AppTheme.pink)
+                    Text("Skip this one")
+                        .font(.system(size: 15, design: .rounded))
+                        .foregroundColor(AppTheme.textDim)
                 }
-                .padding(.bottom, 40)
+                .padding(.bottom, 32)
             }
         }
     }
@@ -115,7 +130,6 @@ struct JudgeTurnView: View {
     let vm = GameViewModel()
     vm.addPlayer(name: "Alex")
     vm.addPlayer(name: "Sam")
-    vm.addPlayer(name: "Jordan")
     vm.startGame()
     return JudgeTurnView(viewModel: vm)
 }
