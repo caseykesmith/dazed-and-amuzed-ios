@@ -2,7 +2,7 @@
 //  ResultsView.swift
 //  DazedAmuzed
 //
-//  Created by Peyton Sadler on 2/11/26.
+//  Created by Peyton Sadler + Casey + Ella Rae on 2/11/26.
 //
 
 
@@ -19,6 +19,11 @@ struct ResultsView: View {
         sortedPlayers.first
     }
     
+    var isTie: Bool {
+        guard sortedPlayers.count >= 2 else { return false }
+        return sortedPlayers[0].score == sortedPlayers[1].score
+    }
+    
     var body: some View {
         ZStack {
             AppTheme.background
@@ -30,84 +35,95 @@ struct ResultsView: View {
                 // Winner Section
                 if let winner = winner {
                     VStack(spacing: 16) {
+                        // Crown
                         Text("👑")
-                            .font(.system(size: 64))
+                            .font(.system(size: 56))
                         
-                        Text(winner.emoji)
-                            .font(.system(size: 72))
+                        // Winner Name
+                        Text(isTie ? "It's a tie!" : "\(winner.name) wins!")
+                            .font(.system(size: 36, weight: .black, design: .rounded))
+                            .foregroundStyle(
+                                LinearGradient(
+                                    colors: [Color(hex: "FFD700"), Color(hex: "FFA500")],
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                            )
                         
-                        Text("\(winner.name) wins!")
-                            .font(.system(size: 32, weight: .black, design: .rounded))
-                            .foregroundStyle(AppTheme.primaryGradient)
-                        
-                        Text("\(winner.score) points")
-                            .font(AppTheme.headlineFont)
-                            .foregroundColor(AppTheme.textMuted)
+                        if !isTie {
+                            Text("\(winner.score) points")
+                                .font(.system(size: 20, weight: .semibold, design: .rounded))
+                                .foregroundColor(AppTheme.textMuted)
+                        }
                     }
                 }
                 
                 Spacer()
                 
                 // Scoreboard
-                VStack(spacing: 12) {
-                    Text("Final Standings")
-                        .font(AppTheme.captionFont)
-                        .foregroundColor(AppTheme.textDim)
-                        .textCase(.uppercase)
+                VStack(spacing: 16) {
+                    Text("FINAL STANDINGS")
+                        .font(.system(size: 12, weight: .bold, design: .rounded))
                         .tracking(2)
+                        .foregroundColor(AppTheme.textDim)
                     
-                    ForEach(Array(sortedPlayers.enumerated()), id: \.element.id) { index, player in
-                        HStack(spacing: 16) {
-                            // Rank
-                            Text(rankEmoji(for: index))
-                                .font(.system(size: 24))
-                                .frame(width: 32)
-                            
-                            Text(player.emoji)
-                                .font(.system(size: 24))
-                            
-                            Text(player.name)
-                                .font(.system(size: 16, weight: .semibold, design: .rounded))
-                                .foregroundColor(AppTheme.text)
-                            
-                            Spacer()
-                            
-                            Text("\(player.score)")
-                                .font(.system(size: 20, weight: .bold, design: .rounded))
-                                .foregroundColor(index == 0 ? AppTheme.yellow : AppTheme.textMuted)
+                    VStack(spacing: 10) {
+                        ForEach(Array(sortedPlayers.enumerated()), id: \.element.id) { index, player in
+                            HStack(spacing: 14) {
+                                // Rank
+                                Text(rankEmoji(for: index))
+                                    .font(.system(size: 24))
+                                    .frame(width: 36)
+                                
+                                // Name
+                                Text(player.name)
+                                    .font(.system(size: 17, weight: .semibold, design: .rounded))
+                                    .foregroundColor(AppTheme.text)
+                                
+                                Spacer()
+                                
+                                // Score
+                                Text("\(player.score)")
+                                    .font(.system(size: 20, weight: .bold, design: .rounded))
+                                    .foregroundColor(index == 0 ? Color(hex: "FFD700") : AppTheme.textMuted)
+                            }
+                            .padding(16)
+                            .background(index == 0 ? Color(hex: "FFD700").opacity(0.1) : AppTheme.card)
+                            .cornerRadius(14)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 14)
+                                    .stroke(index == 0 ? Color(hex: "FFD700").opacity(0.4) : AppTheme.border, lineWidth: 1)
+                            )
                         }
-                        .padding(14)
-                        .background(index == 0 ? AppTheme.cardElevated : AppTheme.card)
-                        .cornerRadius(AppTheme.cornerRadius)
                     }
                 }
-                .padding(.horizontal, AppTheme.paddingLarge)
+                .padding(.horizontal, 24)
                 
                 Spacer()
                 
                 // Action Buttons
-                VStack(spacing: 12) {
+                VStack(spacing: 14) {
                     Button {
                         viewModel.startGame()
                     } label: {
-                        Text("Play Again")
+                        Text("Play Again 🎉")
                             .font(.system(size: 18, weight: .bold, design: .rounded))
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 18)
                             .background(AppTheme.primaryGradient)
-                            .cornerRadius(AppTheme.cornerRadius)
+                            .cornerRadius(14)
                     }
                     
                     Button {
                         viewModel.resetGame()
                     } label: {
                         Text("Back to Home")
-                            .font(AppTheme.bodyFont)
+                            .font(.system(size: 16, weight: .medium, design: .rounded))
                             .foregroundColor(AppTheme.textMuted)
                     }
                 }
-                .padding(.horizontal, AppTheme.paddingLarge)
+                .padding(.horizontal, 24)
                 .padding(.bottom, 40)
             }
         }

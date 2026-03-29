@@ -21,6 +21,7 @@ class GameViewModel: ObservableObject {
     @Published var usedQuestionIDs: Set<UUID> = []
     @Published var roundNumber: Int = 1
     @Published var settings: GameSettings = GameSettings()
+    @Published var lastWinner: Player? = nil
     
     // MARK: - Questions
     private var allQuestions: [Question] = []
