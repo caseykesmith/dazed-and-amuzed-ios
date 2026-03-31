@@ -11,6 +11,7 @@ import SwiftUI
 struct GamePlayView: View {
     @ObservedObject var viewModel: GameViewModel
     @State private var showVibeSwitch = false
+    @State private var showRules = false
     
     let cardTypes: [(name: String, icon: String, color: Color, category: QuestionCategory)] = [
         ("Debate", "🔥", Color(hex: "FF6B35"), .debates),
@@ -31,7 +32,7 @@ struct GamePlayView: View {
                 HStack {
                     Spacer()
                     Button {
-                        viewModel.resetGame()
+                        viewModel.goTo(.results)
                     } label: {
                         Text("End Game")
                             .font(.system(size: 14, weight: .medium, design: .rounded))
@@ -104,7 +105,7 @@ struct GamePlayView: View {
                     Spacer()
                     
                     Button {
-                        // Show rules
+                        showRules = true
                     } label: {
                         HStack(spacing: 4) {
                             Text("📖")
@@ -218,6 +219,9 @@ struct GamePlayView: View {
         }
         .sheet(isPresented: $showVibeSwitch) {
             VibeSwitchSheet(viewModel: viewModel)
+        }
+        .sheet(isPresented: $showRules) {
+            RulesSheet()
         }
     }
     
@@ -413,6 +417,75 @@ struct VibeOptionRow: View {
             .padding(16)
             .background(AppTheme.card)
             .cornerRadius(12)
+        }
+    }
+}
+
+// MARK: - Rules Sheet
+struct RulesSheet: View {
+    @Environment(\.dismiss) var dismiss
+    
+    var body: some View {
+        ZStack {
+            AppTheme.background
+                .ignoresSafeArea()
+            
+            VStack(spacing: 24) {
+                // Header spacing
+                Spacer()
+                    .frame(height: 20)
+                
+                Text("📖 How to Play")
+                    .font(.system(size: 28, weight: .bold, design: .rounded))
+                    .foregroundColor(AppTheme.text)
+                
+                VStack(alignment: .leading, spacing: 16) {
+                    RuleRow(number: "1", text: "The **Judge** picks a card type")
+                    RuleRow(number: "2", text: "Everyone else answers or debates")
+                    RuleRow(number: "3", text: "Judge picks their favorite")
+                    RuleRow(number: "4", text: "Winner gets a point")
+                    RuleRow(number: "5", text: "First to target score wins!")
+                }
+                .padding(.horizontal, 24)
+                
+                Spacer()
+                
+                Button {
+                    dismiss()
+                } label: {
+                    Text("Got it!")
+                        .font(.system(size: 18, weight: .bold, design: .rounded))
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 18)
+                        .background(AppTheme.primaryGradient)
+                        .cornerRadius(14)
+                }
+                .padding(.horizontal, 24)
+                .padding(.bottom, 40)
+            }
+        }
+        .presentationDetents([.medium])
+        .presentationDragIndicator(.visible)
+    }
+}
+
+struct RuleRow: View {
+    let number: String
+    let text: String
+    
+    var body: some View {
+        HStack(alignment: .top, spacing: 12) {
+            Text(number)
+                .font(.system(size: 14, weight: .bold, design: .rounded))
+                .foregroundColor(.white)
+                .frame(width: 28, height: 28)
+                .background(AppTheme.purple)
+                .cornerRadius(14)
+            
+            Text(.init(text))
+                .font(.system(size: 16, design: .rounded))
+                .foregroundColor(AppTheme.text)
         }
     }
 }

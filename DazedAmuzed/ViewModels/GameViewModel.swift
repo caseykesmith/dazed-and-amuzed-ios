@@ -59,12 +59,13 @@ class GameViewModel: ObservableObject {
     
     // MARK: - Game Flow
     func startGame() {
-        usedQuestionIDs = []
-        roundNumber = 1
-        currentPlayerIndex = 0
-        players = players.map { Player(name: $0.name, score: 0, emoji: $0.emoji) }
-        nextQuestion()
         screen = .gamePlay
+        currentPlayerIndex = 0
+        roundNumber = 1
+        usedQuestionIDs = []
+        for i in players.indices {
+            players[i].score = 0
+        }
     }
     
     func nextQuestion() {
@@ -101,7 +102,7 @@ class GameViewModel: ObservableObject {
         if currentPlayerIndex == 0 {
             roundNumber += 1
         }
-        nextQuestion()
+  
     }
     
     func awardPoint(to player: Player) {

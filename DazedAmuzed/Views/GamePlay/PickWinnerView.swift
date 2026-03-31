@@ -11,6 +11,7 @@ import SwiftUI
 struct PickWinnerView: View {
     @ObservedObject var viewModel: GameViewModel
     @State private var showConfetti = false
+    @State private var hasSelectedWinner = false
     @State private var confettiParticles: [ConfettiParticle] = []
     
     var body: some View {
@@ -132,6 +133,10 @@ struct PickWinnerView: View {
     }
     
     private func selectWinner(_ player: Player) {
+        // Prevent double-tap
+        guard !hasSelectedWinner else { return }
+        hasSelectedWinner = true
+        
         // Award the point
         viewModel.awardPoint(to: player)
         viewModel.lastWinner = player
