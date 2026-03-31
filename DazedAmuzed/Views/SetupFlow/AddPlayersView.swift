@@ -11,7 +11,7 @@ import SwiftUI
 struct AddPlayersView: View {
     @ObservedObject var viewModel: GameViewModel
     @State private var newPlayerName = ""
-    @State private var soundEnabled = false
+    @State private var soundEnabled = true
     @State private var selectedLength: GameLength = .classic
     @FocusState private var isTextFieldFocused: Bool
     

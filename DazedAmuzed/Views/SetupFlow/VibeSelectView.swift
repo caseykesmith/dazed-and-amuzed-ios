@@ -10,7 +10,7 @@ import SwiftUI
 
 struct VibeSelectView: View {
     @ObservedObject var viewModel: GameViewModel
-    @State private var drinkingMode = true
+    @State private var drinkingMode = false
     
     var body: some View {
         ZStack {
