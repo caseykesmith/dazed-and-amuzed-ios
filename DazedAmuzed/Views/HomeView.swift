@@ -10,7 +10,6 @@ import SwiftUI
 
 struct HomeView: View {
     @ObservedObject var viewModel: GameViewModel
-    @State private var showMenu = false
     
     var body: some View {
         ZStack {
@@ -19,22 +18,7 @@ struct HomeView: View {
                 .ignoresSafeArea()
             
             VStack(spacing: 0) {
-                // Menu Button
-                HStack {
-                    Spacer()
-                    Button {
-                        showMenu = true
-                    } label: {
-                        Image(systemName: "line.3.horizontal")
-                            .font(.system(size: 20, weight: .medium))
-                            .foregroundColor(AppTheme.text)
-                            .frame(width: 48, height: 48)
-                            .background(AppTheme.card)
-                            .cornerRadius(12)
-                    }
-                }
-                .padding(.horizontal, 24)
-                .padding(.top, 16)
+             
                 
                 Spacer()
                 
@@ -139,9 +123,6 @@ struct HomeView: View {
                 .padding(.horizontal, 32)
                 .padding(.bottom, 48)
             }
-        }
-        .sheet(isPresented: $showMenu) {
-            MenuView(viewModel: viewModel)
         }
     }
 }

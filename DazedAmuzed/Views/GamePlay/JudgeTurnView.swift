@@ -46,7 +46,7 @@ struct JudgeTurnView: View {
                     } label: {
                         HStack(spacing: 4) {
                             Image(systemName: "arrow.left")
-                            Text("Skip")
+                            Text("Back")
                         }
                         .font(.system(size: 16, design: .rounded))
                         .foregroundColor(AppTheme.textMuted)
