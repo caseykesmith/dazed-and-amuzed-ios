@@ -10,6 +10,7 @@ import SwiftUI
 
 struct HomeView: View {
     @ObservedObject var viewModel: GameViewModel
+    @State private var showExtensionPacks = false
     
     var body: some View {
         ZStack {
@@ -97,7 +98,7 @@ struct HomeView: View {
                     
                     // Extension Packs
                     Button {
-                        // TODO: Extension packs
+                        showExtensionPacks = true
                     } label: {
                         Text("Extension Packs")
                             .font(.system(size: 16, weight: .semibold, design: .rounded))
@@ -108,6 +109,10 @@ struct HomeView: View {
                                 RoundedRectangle(cornerRadius: 12)
                                     .stroke(AppTheme.purple.opacity(0.5), lineWidth: 1.5)
                             )
+
+                    .sheet(isPresented: $showExtensionPacks) {
+                        ExtensionPacksView(viewModel: viewModel)
+                    }
                     }
                     
                     // Our Story

@@ -12,14 +12,15 @@ struct GamePlayView: View {
     @ObservedObject var viewModel: GameViewModel
     @State private var showVibeSwitch = false
     @State private var showRules = false
+    @State private var showExtensionPacks = false
     
     let cardTypes: [(name: String, icon: String, color: Color, category: QuestionCategory)] = [
         ("Debate", "🔥", Color(hex: "FF6B35"), .debates),
         ("Would You Rather", "⚖️", Color(hex: "FF2D78"), .wouldYouRather),
         ("Story Time", "💬", Color(hex: "7B68EE"), .stories),
-        ("Most Likely To", "👀", Color(hex: "9ACD32"), .exposed),
-        ("Mini Game", "🎲", Color(hex: "20B2AA"), .reflection),
-        ("Confess", "🫣", Color(hex: "FFD700"), .drinkIf)
+        ("Reflection", "👀", Color(hex: "9ACD32"), .reflection),
+        ("Exposed", "🫣", Color(hex: "FFD700"), .exposed),
+        ("Drink If", "🍻", Color(hex: "20B2AA"), .drinkIf)
     ]
     
     var body: some View {
@@ -83,7 +84,7 @@ struct GamePlayView: View {
                 // Round & Rules
                 HStack {
                     HStack(spacing: 8) {
-                        Text("Round \(viewModel.roundNumber)")
+                        Text("Round \(viewModel.currentRound)")
                             .font(.system(size: 14, weight: .medium, design: .rounded))
                             .foregroundColor(AppTheme.textMuted)
                         
@@ -160,10 +161,10 @@ struct GamePlayView: View {
                             name: card.name,
                             icon: card.icon,
                             color: card.color,
-                            subtitle: card.name == "Mini Game" || card.name == "Confess" ? "No points" : nil
+                            subtitle: nil
                         ) {
-                            viewModel.selectedPacks = [card.category]
-                            viewModel.nextQuestion()
+                            viewModel.selectCategory(card.category)
+                            HapticsService.light()
                             viewModel.goTo(.judgeTurn)
                         }
                     }
@@ -176,11 +177,15 @@ struct GamePlayView: View {
                 // Extension Packs Teaser
                 HStack(spacing: 12) {
                     // Music Trivia (locked)
-                    ExtensionPackMini(icon: "🎵", name: "Music Trivia", isLocked: true)
+                    Button {
+                        showExtensionPacks = true
+                    } label: {
+                        ExtensionPackMini(icon: "🎵", name: "Music Trivia", isLocked: true)
+                    }
                     
                     // Unlock More
                     Button {
-                        // Show extension packs
+                        showExtensionPacks = true
                     } label: {
                         HStack(spacing: 8) {
                             Text("🎁")
@@ -194,8 +199,7 @@ struct GamePlayView: View {
                         .cornerRadius(12)
                         .overlay(
                             RoundedRectangle(cornerRadius: 12)
-                                .stroke(AppTheme.cyan.opacity(0.5), lineWidth: 1)
-                                .strokeBorder(style: StrokeStyle(lineWidth: 1, dash: [6]))
+                                .stroke(AppTheme.cyan, style: StrokeStyle(lineWidth: 1, dash: [6]))
                         )
                     }
                 }
@@ -207,6 +211,7 @@ struct GamePlayView: View {
                         ForEach(Array(viewModel.players.enumerated()), id: \.element.id) { index, player in
                             ScoreChip(
                                 name: player.name,
+                                emoji: player.emoji,
                                 score: player.score,
                                 isJudge: index == viewModel.currentPlayerIndex
                             )
@@ -219,39 +224,45 @@ struct GamePlayView: View {
         }
         .sheet(isPresented: $showVibeSwitch) {
             VibeSwitchSheet(viewModel: viewModel)
+                .presentationDetents([.height(300)])
+                .presentationDragIndicator(.visible)
         }
         .sheet(isPresented: $showRules) {
             RulesSheet()
+                .presentationDetents([.medium])
+                .presentationDragIndicator(.visible)
+        }
+        .sheet(isPresented: $showExtensionPacks) {
+            ExtensionPacksView(viewModel: viewModel)
         }
     }
     
     var vibeEmoji: String {
-        switch viewModel.vibe {
+        switch viewModel.vibeMode {
         case .party: return "🎉"
-        case .deep: return "🌙"
+        case .chill: return "🌙"
         case .mixed: return "✨"
         }
     }
     
     var vibeTitle: String {
-        switch viewModel.vibe {
+        switch viewModel.vibeMode {
         case .party: return "Party Mode"
-        case .deep: return "Deep Mode"
+        case .chill: return "Go Deep"
         case .mixed: return "Best of Both"
         }
     }
     
     var vibeColor: Color {
-        switch viewModel.vibe {
+        switch viewModel.vibeMode {
         case .party: return Color(hex: "FF9500")
-        case .deep: return Color(hex: "5AC8FA")
+        case .chill: return Color(hex: "5AC8FA")
         case .mixed: return Color(hex: "BF5AF2")
         }
     }
     
     var progress: CGFloat {
-        // Simple progress based on round
-        min(CGFloat(viewModel.roundNumber) / 10.0, 1.0)
+        min(CGFloat(viewModel.currentRound) / 10.0, 1.0)
     }
 }
 
@@ -327,15 +338,14 @@ struct ExtensionPackMini: View {
 // MARK: - Score Chip
 struct ScoreChip: View {
     let name: String
+    let emoji: String
     let score: Int
     let isJudge: Bool
     
     var body: some View {
         HStack(spacing: 6) {
-            if isJudge {
-                Text("👑")
-                    .font(.system(size: 12))
-            }
+            Text(emoji)
+                .font(.system(size: 14))
             Text(name)
                 .font(.system(size: 14, weight: .medium, design: .rounded))
                 .foregroundColor(AppTheme.text)
@@ -371,16 +381,16 @@ struct VibeSwitchSheet: View {
                     .padding(.top, 24)
                 
                 VStack(spacing: 12) {
-                    VibeOptionRow(emoji: "🎉", title: "Party Mode", isSelected: viewModel.vibe == .party) {
-                        viewModel.vibe = .party
+                    VibeOptionRow(emoji: "🎉", title: "Party Mode", isSelected: viewModel.vibeMode == .party) {
+                        viewModel.vibeMode = .party
                         dismiss()
                     }
-                    VibeOptionRow(emoji: "🌙", title: "Deep Mode", isSelected: viewModel.vibe == .deep) {
-                        viewModel.vibe = .deep
+                    VibeOptionRow(emoji: "🌙", title: "Go Deep", isSelected: viewModel.vibeMode == .chill) {
+                        viewModel.vibeMode = .chill
                         dismiss()
                     }
-                    VibeOptionRow(emoji: "✨", title: "Best of Both", isSelected: viewModel.vibe == .mixed) {
-                        viewModel.vibe = .mixed
+                    VibeOptionRow(emoji: "✨", title: "Best of Both", isSelected: viewModel.vibeMode == .mixed) {
+                        viewModel.vibeMode = .mixed
                         dismiss()
                     }
                 }
@@ -389,8 +399,6 @@ struct VibeSwitchSheet: View {
                 Spacer()
             }
         }
-        .presentationDetents([.height(300)])
-        .presentationDragIndicator(.visible)
     }
 }
 
@@ -423,21 +431,16 @@ struct VibeOptionRow: View {
 
 // MARK: - Rules Sheet
 struct RulesSheet: View {
-    @Environment(\.dismiss) var dismiss
-    
     var body: some View {
         ZStack {
             AppTheme.background
                 .ignoresSafeArea()
             
             VStack(spacing: 24) {
-                // Header spacing
-                Spacer()
-                    .frame(height: 20)
-                
                 Text("📖 How to Play")
                     .font(.system(size: 28, weight: .bold, design: .rounded))
                     .foregroundColor(AppTheme.text)
+                    .padding(.top, 24)
                 
                 VStack(alignment: .leading, spacing: 16) {
                     RuleRow(number: "1", text: "The **Judge** picks a card type")
@@ -449,24 +452,8 @@ struct RulesSheet: View {
                 .padding(.horizontal, 24)
                 
                 Spacer()
-                
-                Button {
-                    dismiss()
-                } label: {
-                    Text("Got it!")
-                        .font(.system(size: 18, weight: .bold, design: .rounded))
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 18)
-                        .background(AppTheme.primaryGradient)
-                        .cornerRadius(14)
-                }
-                .padding(.horizontal, 24)
-                .padding(.bottom, 40)
             }
         }
-        .presentationDetents([.medium])
-        .presentationDragIndicator(.visible)
     }
 }
 
@@ -486,7 +473,6 @@ struct RuleRow: View {
             Text(.init(text))
                 .font(.system(size: 16, design: .rounded))
                 .foregroundColor(AppTheme.text)
-                .fixedSize(horizontal: false, vertical: true)
         }
     }
 }

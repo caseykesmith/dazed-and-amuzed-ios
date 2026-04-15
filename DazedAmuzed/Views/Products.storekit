@@ -1,0 +1,144 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "0AA39752",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "A67AFD3B",
+      "localizations" : [
+        {
+          "description" : "All packs + future updates forever",
+          "displayName" : "Premium Unlock",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.dazedamuzed.premium",
+      "referenceName" : "Premium Unlock",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "BF52EA0C",
+      "localizations" : [
+        {
+          "description" : "150 music questions from every decade",
+          "displayName" : "Music Trivia",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.dazedamuzed.pack.musictrivia",
+      "referenceName" : "Music Trivia Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "A049C293",
+      "localizations" : [
+        {
+          "description" : "120 questions for catching up with old friends",
+          "displayName" : "Reunion",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.dazedamuzed.pack.reunion",
+      "referenceName" : "Reunion Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "ACC743DB",
+      "localizations" : [
+        {
+          "description" : "100 questions for the bride's last night out",
+          "displayName" : "Bachelorette",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.dazedamuzed.pack.bachelorette",
+      "referenceName" : "Bachelorette Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "D68D80EE",
+      "localizations" : [
+        {
+          "description" : "100 questions for date night with friends",
+          "displayName" : "Couples Night",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.dazedamuzed.pack.couplesnight",
+      "referenceName" : "Couples Night Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "A17ACB19",
+      "localizations" : [
+        {
+          "description" : "150 spicy questions for after midnight",
+          "displayName" : "After Dark",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.dazed.amuzed.pack.afterdark",
+      "referenceName" : "After Dark Pack",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "FCF300C4",
+      "localizations" : [
+        {
+          "description" : "Break the ice and get to know each other",
+          "displayName" : "First Date",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.dazedamuzed.pack.firstdate",
+      "referenceName" : "First Date Pack",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 5,
+    "minor" : 0
+  }
+}

@@ -22,6 +22,8 @@ class GameViewModel: ObservableObject {
     @Published var roundNumber: Int = 1
     @Published var settings: GameSettings = GameSettings()
     @Published var lastWinner: Player? = nil
+    @Published var currentRound: Int = 1
+    @Published var vibeMode: VibeMode = .mixed
     
     // MARK: - Questions
     private var allQuestions: [Question] = []
@@ -108,6 +110,15 @@ class GameViewModel: ObservableObject {
     func awardPoint(to player: Player) {
         if let index = players.firstIndex(where: { $0.id == player.id }) {
             players[index].score += 1
+        }
+    }
+    
+    // Add this method with the other functions
+    func selectCategory(_ category: QuestionCategory) {
+        // Filter questions by category and pick one
+        let categoryQuestions = allQuestions.filter { $0.category == category }
+        if let question = categoryQuestions.randomElement() {
+            currentQuestion = question
         }
     }
     
