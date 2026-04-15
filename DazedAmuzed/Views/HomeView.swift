@@ -86,14 +86,14 @@ struct HomeView: View {
                     }
                     
                     // Join with code
-                    Button {
+                   // Button {
                         // TODO: Join with code
-                    } label: {
-                        Text("Join with code")
-                            .font(.system(size: 16, weight: .medium, design: .rounded))
-                            .foregroundColor(AppTheme.textMuted)
-                    }
-                    .padding(.top, 4)
+                 //   } label: {
+                    //    Text("Join with code")
+                   //         .font(.system(size: 16, weight: .medium, design: .rounded))
+                  //          .foregroundColor(AppTheme.textMuted)
+              //      }
+               //     .padding(.top, 4)
                     
                     // Extension Packs
                     Button {
