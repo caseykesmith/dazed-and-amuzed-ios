@@ -21,7 +21,7 @@ struct ResultsView: View {
     
     var isTie: Bool {
         guard sortedPlayers.count >= 2 else { return false }
-        return sortedPlayers[0].score == sortedPlayers[1].score
+        return sortedPlayers[0].score == sortedPlayers[1].score && sortedPlayers[0].score > 0
     }
     
     var body: some View {
@@ -29,60 +29,55 @@ struct ResultsView: View {
             AppTheme.background
                 .ignoresSafeArea()
             
-            VStack(spacing: 24) {
-                Spacer()
-                
-                // Winner Section
-                if let winner = winner {
-                    VStack(spacing: 16) {
-                        // Crown
-                        Text("👑")
-                            .font(.system(size: 56))
-                        
-                        // Winner Name
-                        Text(isTie ? "It's a tie!" : "\(winner.name) wins!")
-                            .font(.system(size: 36, weight: .black, design: .rounded))
-                            .foregroundStyle(
-                                LinearGradient(
-                                    colors: [Color(hex: "FFD700"), Color(hex: "FFA500")],
-                                    startPoint: .leading,
-                                    endPoint: .trailing
-                                )
+            VStack(spacing: 0) {
+                // Fixed Header - Winner Section
+                VStack(spacing: 12) {
+                    Text("👑")
+                        .font(.system(size: 56))
+                    
+                    Text(isTie ? "It's a tie!" : "\(winner?.name ?? "") wins!")
+                        .font(.system(size: 32, weight: .black, design: .rounded))
+                        .foregroundStyle(
+                            LinearGradient(
+                                colors: [Color(hex: "FFD700"), Color(hex: "FFA500")],
+                                startPoint: .leading,
+                                endPoint: .trailing
                             )
-                        
-                        if !isTie {
-                            Text("\(winner.score) points")
-                                .font(.system(size: 20, weight: .semibold, design: .rounded))
-                                .foregroundColor(AppTheme.textMuted)
-                        }
+                        )
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 24)
+                    
+                    if !isTie, let winner = winner {
+                        Text("\(winner.score) points")
+                            .font(.system(size: 18, weight: .semibold, design: .rounded))
+                            .foregroundColor(AppTheme.textMuted)
                     }
                 }
+                .padding(.top, 40)
+                .padding(.bottom, 24)
                 
-                Spacer()
+                // Scoreboard Label
+                Text("FINAL STANDINGS")
+                    .font(.system(size: 12, weight: .bold, design: .rounded))
+                    .tracking(2)
+                    .foregroundColor(AppTheme.textDim)
+                    .padding(.bottom, 12)
                 
-                // Scoreboard
-                VStack(spacing: 16) {
-                    Text("FINAL STANDINGS")
-                        .font(.system(size: 12, weight: .bold, design: .rounded))
-                        .tracking(2)
-                        .foregroundColor(AppTheme.textDim)
-                    
+                // Scrollable Player List
+                ScrollView {
                     VStack(spacing: 10) {
                         ForEach(Array(sortedPlayers.enumerated()), id: \.element.id) { index, player in
                             HStack(spacing: 14) {
-                                // Rank
-                                Text(rankEmoji(for: index))
-                                    .font(.system(size: 24))
+                                Text(rankDisplay(for: index))
+                                    .font(.system(size: 20))
                                     .frame(width: 36)
                                 
-                                // Name
                                 Text(player.name)
                                     .font(.system(size: 17, weight: .semibold, design: .rounded))
                                     .foregroundColor(AppTheme.text)
                                 
                                 Spacer()
                                 
-                                // Score
                                 Text("\(player.score)")
                                     .font(.system(size: 20, weight: .bold, design: .rounded))
                                     .foregroundColor(index == 0 ? Color(hex: "FFD700") : AppTheme.textMuted)
@@ -96,14 +91,13 @@ struct ResultsView: View {
                             )
                         }
                     }
+                    .padding(.horizontal, 24)
                 }
-                .padding(.horizontal, 24)
                 
-                Spacer()
-                
-                // Action Buttons
+                // Fixed Footer - Action Buttons
                 VStack(spacing: 14) {
                     Button {
+                        HapticsService.medium()
                         viewModel.startGame()
                     } label: {
                         Text("Play Again 🎉")
@@ -124,12 +118,13 @@ struct ResultsView: View {
                     }
                 }
                 .padding(.horizontal, 24)
+                .padding(.top, 16)
                 .padding(.bottom, 40)
             }
         }
     }
     
-    func rankEmoji(for index: Int) -> String {
+    func rankDisplay(for index: Int) -> String {
         switch index {
         case 0: return "🥇"
         case 1: return "🥈"

@@ -475,7 +475,7 @@ struct RuleRow: View {
     let text: String
     
     var body: some View {
-        HStack(alignment: .top, spacing: 12) {
+        HStack(alignment: .center, spacing: 12) {
             Text(number)
                 .font(.system(size: 14, weight: .bold, design: .rounded))
                 .foregroundColor(.white)
@@ -486,6 +486,7 @@ struct RuleRow: View {
             Text(.init(text))
                 .font(.system(size: 16, design: .rounded))
                 .foregroundColor(AppTheme.text)
+                .fixedSize(horizontal: false, vertical: true)
         }
     }
 }

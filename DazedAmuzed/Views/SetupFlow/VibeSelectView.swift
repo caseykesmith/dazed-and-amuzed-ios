@@ -80,7 +80,7 @@ struct VibeSelectView: View {
                         VStack(alignment: .leading, spacing: 10) {
                             HowToPlayRow(number: "1", text: "Take turns being the **Judge** — they pick a card type")
                             HowToPlayRow(number: "2", text: "Everyone else answers, debates, or votes")
-                            HowToPlayRow(number: "3", text: "Judge picks their favorite — winner gets a 🪙 **token**")
+                            HowToPlayRow(number: "3", text: "Judge picks their favorite — winner gets a point")
                             
                             HStack(alignment: .top, spacing: 8) {
                                 Text("🏆")
