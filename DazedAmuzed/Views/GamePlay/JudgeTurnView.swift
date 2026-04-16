@@ -12,15 +12,7 @@ struct JudgeTurnView: View {
     @ObservedObject var viewModel: GameViewModel
     
     var cardColor: Color {
-        guard let question = viewModel.currentQuestion else { return AppTheme.pink }
-        switch question.category {
-        case .debates: return Color(hex: "FF6B35")
-        case .wouldYouRather: return Color(hex: "FF2D78")
-        case .stories: return Color(hex: "7B68EE")
-        case .exposed: return Color(hex: "9ACD32")
-        case .reflection: return Color(hex: "20B2AA")
-        case .drinkIf: return Color(hex: "FFD700")
-        }
+        viewModel.currentQuestion?.category.color ?? AppTheme.pink
     }
     
     var categoryName: String {

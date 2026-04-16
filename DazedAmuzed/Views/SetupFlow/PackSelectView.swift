@@ -110,14 +110,7 @@ struct PackCard: View {
     let action: () -> Void
     
     var categoryColor: Color {
-        switch category {
-        case .debates: return AppTheme.orange
-        case .stories: return AppTheme.cyan
-        case .reflection: return AppTheme.purple
-        case .wouldYouRather: return AppTheme.pink
-        case .exposed: return AppTheme.yellow
-        case .drinkIf: return AppTheme.green
-        }
+        category.color
     }
     
     var body: some View {
