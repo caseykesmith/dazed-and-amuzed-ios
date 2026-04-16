@@ -10,19 +10,31 @@ import SwiftUI
 
 struct GamePlayView: View {
     @ObservedObject var viewModel: GameViewModel
+    @StateObject private var store = StoreKitService.shared
     @State private var showVibeSwitch = false
     @State private var showRules = false
     @State private var showExtensionPacks = false
-    
-    let cardTypes: [(name: String, icon: String, color: Color, category: QuestionCategory)] = [
-        ("Debate", "🔥", Color(hex: "FF6B35"), .debates),
-        ("Would You Rather", "⚖️", Color(hex: "FF2D78"), .wouldYouRather),
-        ("Story Time", "💬", Color(hex: "7B68EE"), .stories),
-        ("Reflection", "👀", Color(hex: "9ACD32"), .reflection),
-        ("Exposed", "🫣", Color(hex: "FFD700"), .exposed),
-        ("Drink If", "🍻", Color(hex: "20B2AA"), .drinkIf)
+
+    let baseCategories: [QuestionCategory] = [
+        .debates, .wouldYouRather, .stories, .reflection, .exposed, .drinkIf
     ]
-    
+
+    var purchasedExtensionPacks: [QuestionCategory] {
+        let packs: [(QuestionCategory, String)] = [
+            (.musicTrivia, StoreKitService.musicTrivia),
+            (.reunion, StoreKitService.reunion),
+            (.bachelorette, StoreKitService.bachelorette),
+            (.couplesNight, StoreKitService.couplesNight),
+            (.afterDark, StoreKitService.afterDark),
+            (.firstDate, StoreKitService.firstDate),
+        ]
+        return packs.filter { store.hasAccess(to: $0.1) }.map { $0.0 }
+    }
+
+    var allCategories: [QuestionCategory] {
+        baseCategories + purchasedExtensionPacks
+    }
+
     var body: some View {
         ZStack {
             AppTheme.background
@@ -122,88 +134,91 @@ struct GamePlayView: View {
                 .padding(.horizontal, 24)
                 .padding(.top, 16)
                 
-                // Judge Section
-                VStack(spacing: 12) {
-                    // Judge Badge
-                    HStack(spacing: 6) {
-                        Text("👑")
-                            .font(.system(size: 14))
-                        Text("JUDGE")
-                            .font(.system(size: 13, weight: .bold, design: .rounded))
-                            .tracking(2)
+                ScrollView(showsIndicators: false) {
+                    // Judge Section
+                    VStack(spacing: 12) {
+                        // Judge Badge
+                        HStack(spacing: 6) {
+                            Text("👑")
+                                .font(.system(size: 14))
+                            Text("JUDGE")
+                                .font(.system(size: 13, weight: .bold, design: .rounded))
+                                .tracking(2)
+                        }
+                        .foregroundColor(Color(hex: "FFD700"))
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 8)
+                        .background(Color(hex: "FFD700").opacity(0.2))
+                        .cornerRadius(20)
+
+                        // Player Name
+                        if let player = viewModel.currentPlayer {
+                            Text(player.name)
+                                .font(.system(size: 48, weight: .bold, design: .rounded))
+                                .foregroundColor(AppTheme.text)
+                        }
+
+                        Text("Pick a card type")
+                            .font(.system(size: 16, design: .rounded))
+                            .foregroundColor(AppTheme.textDim)
                     }
-                    .foregroundColor(Color(hex: "FFD700"))
-                    .padding(.horizontal, 16)
-                    .padding(.vertical, 8)
-                    .background(Color(hex: "FFD700").opacity(0.2))
-                    .cornerRadius(20)
-                    
-                    // Player Name
-                    if let player = viewModel.currentPlayer {
-                        Text(player.name)
-                            .font(.system(size: 48, weight: .bold, design: .rounded))
-                            .foregroundColor(AppTheme.text)
-                    }
-                    
-                    Text("Pick a card type")
-                        .font(.system(size: 16, design: .rounded))
-                        .foregroundColor(AppTheme.textDim)
-                }
-                .padding(.top, 24)
-                
-                // Card Type Grid
-                LazyVGrid(columns: [
-                    GridItem(.flexible(), spacing: 12),
-                    GridItem(.flexible(), spacing: 12)
-                ], spacing: 12) {
-                    ForEach(cardTypes, id: \.name) { card in
-                        CardTypeButton(
-                            name: card.name,
-                            icon: card.icon,
-                            color: card.color,
-                            subtitle: nil
-                        ) {
-                            viewModel.selectCategory(card.category)
-                            HapticsService.light()
-                            viewModel.goTo(.judgeTurn)
+                    .padding(.top, 24)
+
+                    // Card Type Grid
+                    LazyVGrid(columns: [
+                        GridItem(.flexible(), spacing: 12),
+                        GridItem(.flexible(), spacing: 12)
+                    ], spacing: 12) {
+                        ForEach(allCategories, id: \.self) { category in
+                            CardTypeButton(
+                                name: category.displayName,
+                                icon: category.icon,
+                                color: category.color,
+                                subtitle: nil
+                            ) {
+                                viewModel.selectCategory(category)
+                                HapticsService.light()
+                                viewModel.goTo(.judgeTurn)
+                            }
                         }
                     }
+                    .padding(.horizontal, 24)
+                    .padding(.top, 20)
+                    .padding(.bottom, 16)
                 }
-                .padding(.horizontal, 24)
-                .padding(.top, 20)
-                
-                Spacer()
                 
                 // Extension Packs Teaser
-                HStack(spacing: 12) {
-                    // Music Trivia (locked)
-                    Button {
-                        showExtensionPacks = true
-                    } label: {
-                        ExtensionPackMini(icon: "🎵", name: "Music Trivia", isLocked: true)
-                    }
-                    
-                    // Unlock More
-                    Button {
-                        showExtensionPacks = true
-                    } label: {
-                        HStack(spacing: 8) {
-                            Text("🎁")
-                            Text("Unlock More")
-                                .font(.system(size: 14, weight: .semibold, design: .rounded))
-                                .foregroundColor(AppTheme.cyan)
+                if !store.hasPremium {
+                    HStack(spacing: 12) {
+                        // Music Trivia (locked)
+                        Button {
+                            showExtensionPacks = true
+                        } label: {
+                            ExtensionPackMini(icon: "🎵", name: "Music Trivia", isLocked: true)
                         }
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 16)
-                        .background(AppTheme.card)
-                        .cornerRadius(12)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 12)
-                                .stroke(AppTheme.cyan, style: StrokeStyle(lineWidth: 1, dash: [6]))
-                        )
+
+                        // Unlock More
+                        Button {
+                            showExtensionPacks = true
+                        } label: {
+                            HStack(spacing: 8) {
+                                Text("🎁")
+                                Text("Unlock More")
+                                    .font(.system(size: 14, weight: .semibold, design: .rounded))
+                                    .foregroundColor(AppTheme.cyan)
+                            }
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 16)
+                            .background(AppTheme.card)
+                            .cornerRadius(12)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 12)
+                                    .stroke(AppTheme.cyan, style: StrokeStyle(lineWidth: 1, dash: [6]))
+                            )
+                        }
                     }
+                    .padding(.horizontal, 24)
                 }
-                .padding(.horizontal, 24)
                 
                 // Score Bar
                 ScrollView(.horizontal, showsIndicators: false) {

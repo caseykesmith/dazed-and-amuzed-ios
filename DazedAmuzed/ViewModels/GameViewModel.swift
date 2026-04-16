@@ -115,6 +115,8 @@ class GameViewModel: ObservableObject {
     
     // Add this method with the other functions
     func selectCategory(_ category: QuestionCategory) {
+        // Clear stale state so an empty category doesn't show the previous question
+        currentQuestion = nil
         // Filter questions by category and pick one
         let categoryQuestions = allQuestions.filter { $0.category == category }
         if let question = categoryQuestions.randomElement() {
