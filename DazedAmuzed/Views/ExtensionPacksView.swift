@@ -257,8 +257,19 @@ struct ExtensionPackCard: View {
             }
             
             Spacer()
-            
-            if isOwned {
+
+            if pack.isComingSoon {
+                Text("Coming Soon")
+                    .font(.system(size: 14, weight: .semibold, design: .rounded))
+                    .foregroundColor(AppTheme.textMuted)
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 10)
+                    .background(AppTheme.card)
+                    .overlay(
+                        Capsule().stroke(AppTheme.border, lineWidth: 1)
+                    )
+                    .clipShape(Capsule())
+            } else if isOwned {
                 Image(systemName: "checkmark.circle.fill")
                     .font(.system(size: 24))
                     .foregroundColor(.green)
@@ -279,6 +290,7 @@ struct ExtensionPackCard: View {
             }
         }
         .padding(16)
+        .opacity(pack.isComingSoon ? 0.6 : 1)
         .background(AppTheme.card)
         .cornerRadius(14)
         .overlay(

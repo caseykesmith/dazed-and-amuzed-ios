@@ -33,13 +33,13 @@ struct PackSelectView: View {
                     
                     // Select All / None
                     Button {
-                        if viewModel.selectedPacks.count == QuestionCategory.allCases.count {
+                        if viewModel.selectedPacks.count == QuestionCategory.availableCases.count {
                             viewModel.selectedPacks = []
                         } else {
-                            viewModel.selectedPacks = Set(QuestionCategory.allCases)
+                            viewModel.selectedPacks = Set(QuestionCategory.availableCases)
                         }
                     } label: {
-                        Text(viewModel.selectedPacks.count == QuestionCategory.allCases.count ? "Deselect All" : "Select All")
+                        Text(viewModel.selectedPacks.count == QuestionCategory.availableCases.count ? "Deselect All" : "Select All")
                             .font(AppTheme.captionFont)
                             .foregroundColor(AppTheme.purple)
                     }
@@ -68,6 +68,7 @@ struct PackSelectView: View {
                                 category: category,
                                 isSelected: viewModel.selectedPacks.contains(category)
                             ) {
+                                guard !category.isComingSoon else { return }
                                 if viewModel.selectedPacks.contains(category) {
                                     viewModel.selectedPacks.remove(category)
                                 } else {
@@ -118,16 +119,24 @@ struct PackCard: View {
             VStack(spacing: 10) {
                 Text(category.icon)
                     .font(.system(size: 36))
-                
+
                 Text(category.displayName)
                     .font(.system(size: 13, weight: .semibold, design: .rounded))
                     .foregroundColor(AppTheme.text)
                     .multilineTextAlignment(.center)
                     .lineLimit(2)
                     .minimumScaleFactor(0.8)
+
+                if category.isComingSoon {
+                    Text("COMING SOON")
+                        .font(.system(size: 9, weight: .bold, design: .rounded))
+                        .tracking(1)
+                        .foregroundColor(AppTheme.textDim)
+                }
             }
             .frame(maxWidth: .infinity)
             .frame(height: 110)
+            .opacity(category.isComingSoon ? 0.5 : 1)
             .background(
                 RoundedRectangle(cornerRadius: AppTheme.cornerRadius)
                     .fill(isSelected ? categoryColor.opacity(0.15) : AppTheme.card)
@@ -149,6 +158,7 @@ struct PackCard: View {
                 alignment: .topTrailing
             )
         }
+        .disabled(category.isComingSoon)
     }
 }
 

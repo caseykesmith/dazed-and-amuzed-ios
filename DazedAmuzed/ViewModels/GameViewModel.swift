@@ -29,7 +29,7 @@ class GameViewModel: ObservableObject {
     private var allQuestions: [Question] = []
     
     // MARK: - Selected Packs
-    @Published var selectedPacks: Set<QuestionCategory> = Set(QuestionCategory.allCases)
+    @Published var selectedPacks: Set<QuestionCategory> = Set(QuestionCategory.availableCases)
     
     // MARK: - Init
     init() {
@@ -137,6 +137,6 @@ class GameViewModel: ObservableObject {
         usedQuestionIDs = []
         roundNumber = 1
         vibe = .mixed
-        selectedPacks = Set(QuestionCategory.allCases)
+        selectedPacks = Set(QuestionCategory.availableCases)
     }
 }

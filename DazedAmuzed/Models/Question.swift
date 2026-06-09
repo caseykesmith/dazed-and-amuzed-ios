@@ -40,8 +40,8 @@ enum QuestionCategory: String, Codable, CaseIterable {
     var displayName: String {
         switch self {
         case .debates: return "Debate"
-        case .stories: return "Story Time"
-        case .reflection: return "Reflection"
+        case .stories: return "Spill"
+        case .reflection: return "Unfiltered"
         case .wouldYouRather: return "Would You Rather"
         case .exposed: return "Exposed"
         case .drinkIf: return "Drink If"
@@ -69,6 +69,21 @@ enum QuestionCategory: String, Codable, CaseIterable {
         case .afterDark: return "🌶️"
         case .firstDate: return "🥰"
         }
+    }
+
+    /// Decks that aren't available yet. Shown as "Coming Soon" and disabled.
+    var isComingSoon: Bool {
+        switch self {
+        case .musicTrivia, .reunion, .bachelorette, .couplesNight, .afterDark, .firstDate:
+            return true
+        default:
+            return false
+        }
+    }
+
+    /// Categories that are currently playable (excludes "Coming Soon" decks).
+    static var availableCases: [QuestionCategory] {
+        allCases.filter { !$0.isComingSoon }
     }
 
     var color: Color {

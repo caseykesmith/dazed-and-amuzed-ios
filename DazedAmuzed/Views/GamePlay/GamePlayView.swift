@@ -32,7 +32,8 @@ struct GamePlayView: View {
     }
 
     var allCategories: [QuestionCategory] {
-        baseCategories + purchasedExtensionPacks
+        // "Coming Soon" decks are never playable, even if a premium/test purchase grants access.
+        (baseCategories + purchasedExtensionPacks).filter { !$0.isComingSoon }
     }
 
     var body: some View {
