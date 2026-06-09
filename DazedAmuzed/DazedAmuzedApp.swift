@@ -9,9 +9,23 @@ import SwiftUI
 
 @main
 struct DazedAmuzedApp: App {
+    @State private var showSplash = true
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                ContentView()
+
+                if showSplash {
+                    SplashView {
+                        withAnimation(.easeInOut(duration: 0.4)) {
+                            showSplash = false
+                        }
+                    }
+                    .transition(.opacity)
+                    .zIndex(1)
+                }
+            }
         }
     }
 }

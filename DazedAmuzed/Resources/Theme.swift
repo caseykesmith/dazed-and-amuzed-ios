@@ -13,8 +13,10 @@ struct AppTheme {
     static let card = Color(hex: "1a1a2e")
     static let cardElevated = Color(hex: "252542")
     
-    static let purple = Color(hex: "a855f7")
-    static let pink = Color(hex: "ec4899")
+    // Brand accent colors. Names kept as `purple`/`pink` (referenced app-wide as the
+    // generic accent) but repointed to the orange/magenta brand palette from the logo.
+    static let purple = Color(hex: "FF7A1A")   // brand orange
+    static let pink = Color(hex: "FF2278")     // brand magenta-pink
     static let cyan = Color(hex: "06b6d4")
     static let orange = Color(hex: "f97316")
     static let green = Color(hex: "22c55e")

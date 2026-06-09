@@ -30,8 +30,8 @@ struct HomeView: View {
                         .foregroundStyle(
                             LinearGradient(
                                 colors: [
-                                    Color(hex: "9B6DFF"),
-                                    Color(hex: "FF6B9D")
+                                    Color(hex: "FFB24D"),
+                                    Color(hex: "FF6A00")
                                 ],
                                 startPoint: .leading,
                                 endPoint: .trailing
@@ -48,8 +48,8 @@ struct HomeView: View {
                         .foregroundStyle(
                             LinearGradient(
                                 colors: [
-                                    Color(hex: "FF6B9D"),
-                                    Color(hex: "C44DFF")
+                                    Color(hex: "FF5C9E"),
+                                    Color(hex: "FF1E74")
                                 ],
                                 startPoint: .leading,
                                 endPoint: .trailing
