@@ -10,8 +10,7 @@ import SwiftUI
 
 struct HomeView: View {
     @ObservedObject var viewModel: GameViewModel
-    @State private var showExtensionPacks = false
-    
+
     var body: some View {
         ZStack {
             // Background
@@ -96,7 +95,10 @@ struct HomeView: View {
               //      }
                //     .padding(.top, 4)
                     
-                    // Extension Packs
+                    // Extension Packs store is hidden for the v1 launch — all decks
+                    // ship free and the packs are still "Coming Soon". Re-enable this
+                    // button (and ExtensionPacksView) once paid packs are ready.
+                    /*
                     Button {
                         showExtensionPacks = true
                     } label: {
@@ -114,16 +116,9 @@ struct HomeView: View {
                         ExtensionPacksView(viewModel: viewModel)
                     }
                     }
-                    
-                    // Our Story
-                    Button {
-                        // TODO: Our story
-                    } label: {
-                        Text("Our Story")
-                            .font(.system(size: 15, design: .rounded))
-                            .foregroundColor(AppTheme.textDim)
-                    }
-                    .padding(.top, 4)
+                    */
+
+                    // "Our Story" button hidden for v1 (no destination yet).
                 }
                 .padding(.horizontal, 32)
                 .padding(.bottom, 48)

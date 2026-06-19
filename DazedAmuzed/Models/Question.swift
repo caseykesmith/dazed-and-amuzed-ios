@@ -44,7 +44,7 @@ enum QuestionCategory: String, Codable, CaseIterable {
         case .reflection: return "Unfiltered"
         case .wouldYouRather: return "Would You Rather"
         case .exposed: return "Exposed"
-        case .drinkIf: return "Drink If"
+        case .drinkIf: return "Guilty"
         case .musicTrivia: return "Music Trivia"
         case .reunion: return "Reunion"
         case .bachelorette: return "Bachelorette"

@@ -7594,6 +7594,356 @@
       "text": "Who would forget tonight by tomorrow?",
       "category": "exposed",
       "vibe": "deep"
+    },
+    {
+      "text": "You've gotten a tattoo on a whim.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've skinny-dipped.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've ghosted someone after a date.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've lied about watching a show to fit in.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've cried at a commercial.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've had a paranormal experience you can't explain.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You're an extrovert who's secretly an introvert.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You would marry someone for their money.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You believe astrology is surprisingly accurate.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You think flirting counts as cheating.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "What you went to school for has nothing to do with your job.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You think pineapple belongs on pizza.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You don't tip at coffee-shop counters.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've hooked up with someone and never told a soul.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "Your best friend is the opposite gender.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've traveled to more than five countries.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You think you're hot.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You think you're the smartest person in this room right now.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've had a one-night stand.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've had a near-death experience.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've gotten in trouble with the law and gotten out of it.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've dyed your hair a color of the rainbow.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've been in a love triangle.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You have lip filler or Botox.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You think cats are better than dogs.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You'd rather be boozing than blunt-cruising.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've canceled plans to stay home and do nothing — and felt zero guilt.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've pretended not to see someone in public on purpose.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You have an unanswered text that's been sitting there for more than a week.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've Googled yourself.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've rehearsed a conversation in your head that never actually happened.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've screenshot a text and immediately sent it to someone else.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've convinced yourself a situationship was 'basically a relationship.'",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've looked up an ex's new partner and compared yourself to them.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You've drunk-texted someone and pretended it was an accident.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "Your body count is more than both your hands.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "You would hook up with someone in this group.",
+      "category": "drinkIf",
+      "vibe": "party"
+    },
+    {
+      "text": "Confess the most ridiculous lie you've told to get out of plans.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess the weirdest thing you've Googled in the last month.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess the pettiest thing you've ever done to someone.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess a terrible opinion you have about something everyone loves.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess the most chaotic impulse decision you've ever made — and how it turned out.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess something you've done that your past self would judge you for.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess the most unhinged thought you've had in the last 24 hours.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess the last time you were fully the villain of the story.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess the biggest lie you've ever gotten away with.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess the most embarrassing thing on your camera roll right now.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess the last time you lied to someone you care about — and why.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess something people in your life consistently misunderstand about you.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess the most selfish thing you've ever done — and whether you'd do it again.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess something you've never quite admitted to yourself until now.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess what you think your biggest blind spot is as a person.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess the thing about yourself you're most afraid won't change.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess who in this group you've underestimated — and what changed it.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess what you'd do completely differently if you could restart at 18.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess a belief you hold that you're afraid to say out loud.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess something you're genuinely jealous of about someone in this group.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess a moment you chose the easy path when you knew you should've chosen the hard one.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess a time you let someone down and never properly made it right.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "Confess the most honest thought you've had about yourself this week.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "You've stayed friends with someone partly to keep an eye on them.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "You've judged someone for a choice you'd secretly make too.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "You've felt relief at news you were supposed to feel sad about.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "You've kept a screenshot you should have deleted.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "You've stayed somewhere too long because leaving felt like admitting you were wrong.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "You've let someone believe a flattering version of a story.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "You've quietly competed with a friend while cheering them on out loud.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "You've wanted someone you shouldn't have, recently.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "You've checked what an ex is up to in the last month.",
+      "category": "drinkIf",
+      "vibe": "deep"
+    },
+    {
+      "text": "You've pretended to be over something you're absolutely not over.",
+      "category": "drinkIf",
+      "vibe": "deep"
     }
   ]
 }

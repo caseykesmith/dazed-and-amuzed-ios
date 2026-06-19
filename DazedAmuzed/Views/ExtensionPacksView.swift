@@ -250,7 +250,9 @@ struct ExtensionPackCard: View {
                 Text(pack.name)
                     .font(.system(size: 17, weight: .semibold, design: .rounded))
                     .foregroundColor(AppTheme.text)
-                
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.8)
+
                 Text("\(pack.questionCount) questions")
                     .font(.system(size: 13, design: .rounded))
                     .foregroundColor(AppTheme.textMuted)
@@ -262,6 +264,8 @@ struct ExtensionPackCard: View {
                 Text("Coming Soon")
                     .font(.system(size: 14, weight: .semibold, design: .rounded))
                     .foregroundColor(AppTheme.textMuted)
+                    .lineLimit(1)
+                    .fixedSize()
                     .padding(.horizontal, 14)
                     .padding(.vertical, 10)
                     .background(AppTheme.card)

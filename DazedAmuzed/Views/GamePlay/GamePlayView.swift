@@ -13,7 +13,6 @@ struct GamePlayView: View {
     @StateObject private var store = StoreKitService.shared
     @State private var showVibeSwitch = false
     @State private var showRules = false
-    @State private var showExtensionPacks = false
 
     let baseCategories: [QuestionCategory] = [
         .debates, .wouldYouRather, .stories, .reflection, .exposed, .drinkIf
@@ -187,40 +186,7 @@ struct GamePlayView: View {
                     .padding(.top, 20)
                     .padding(.bottom, 16)
                 }
-                
-                // Extension Packs Teaser
-                if !store.hasPremium {
-                    HStack(spacing: 12) {
-                        // Music Trivia (locked)
-                        Button {
-                            showExtensionPacks = true
-                        } label: {
-                            ExtensionPackMini(icon: "🎵", name: "Music Trivia", isLocked: true)
-                        }
 
-                        // Unlock More
-                        Button {
-                            showExtensionPacks = true
-                        } label: {
-                            HStack(spacing: 8) {
-                                Text("🎁")
-                                Text("Unlock More")
-                                    .font(.system(size: 14, weight: .semibold, design: .rounded))
-                                    .foregroundColor(AppTheme.cyan)
-                            }
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 16)
-                            .background(AppTheme.card)
-                            .cornerRadius(12)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 12)
-                                    .stroke(AppTheme.cyan, style: StrokeStyle(lineWidth: 1, dash: [6]))
-                            )
-                        }
-                    }
-                    .padding(.horizontal, 24)
-                }
-                
                 // Score Bar
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 8) {
@@ -247,9 +213,6 @@ struct GamePlayView: View {
             RulesSheet()
                 .presentationDetents([.medium])
                 .presentationDragIndicator(.visible)
-        }
-        .sheet(isPresented: $showExtensionPacks) {
-            ExtensionPacksView(viewModel: viewModel)
         }
     }
     
@@ -316,38 +279,6 @@ struct CardTypeButton: View {
                     .stroke(color.opacity(0.4), lineWidth: 1)
             )
         }
-    }
-}
-
-// MARK: - Extension Pack Mini
-struct ExtensionPackMini: View {
-    let icon: String
-    let name: String
-    let isLocked: Bool
-    
-    var body: some View {
-        VStack(spacing: 6) {
-            ZStack {
-                Text(icon)
-                    .font(.system(size: 20))
-                    .opacity(isLocked ? 0.5 : 1)
-                
-                if isLocked {
-                    Image(systemName: "lock.fill")
-                        .font(.system(size: 10))
-                        .foregroundColor(AppTheme.textDim)
-                        .offset(x: 12, y: -8)
-                }
-            }
-            
-            Text(name)
-                .font(.system(size: 12, design: .rounded))
-                .foregroundColor(AppTheme.textDim)
-        }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 14)
-        .background(AppTheme.card)
-        .cornerRadius(12)
     }
 }
 
