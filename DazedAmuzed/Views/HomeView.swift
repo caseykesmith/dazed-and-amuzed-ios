@@ -96,7 +96,7 @@ struct HomeView: View {
                                 ))
                                 .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.4), value: index)
                         }
-                        .frame(height: headlineSize * 0.84, alignment: .leading)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                         .clipped()
                     }
 
