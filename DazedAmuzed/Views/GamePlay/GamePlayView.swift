@@ -108,9 +108,8 @@ struct GamePlayView: View {
 
     private var header: some View {
         HStack {
-            (Text("DAZED").foregroundColor(AppTheme.purple)
-                + Text(" & ").foregroundColor(.white)
-                + Text("AMUZED").foregroundColor(AppTheme.pink))
+            Text("\(Text("DAZED").foregroundColor(AppTheme.purple)) & \(Text("AMUZED").foregroundColor(AppTheme.pink))")
+                .foregroundColor(.white)
                 .displayStyle(17)
 
             Spacer()
