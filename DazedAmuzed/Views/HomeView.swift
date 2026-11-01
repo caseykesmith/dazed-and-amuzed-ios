@@ -39,8 +39,8 @@ struct HomeView: View {
                 HStack {
                     Text("DAZED \(Text("&").foregroundColor(Color(hex: "FF2E88"))) AMUZED")
                         .foregroundColor(.white)
-                        .font(AppTheme.displayCondensed(18))
-                        .tracking(AppTheme.displayTracking(for: 18))
+                        .font(AppTheme.displayCondensed(24))
+                        .tracking(AppTheme.displayTracking(for: 24))
                         .frame(maxWidth: .infinity, alignment: .leading)
 
                     Button {
@@ -65,35 +65,40 @@ struct HomeView: View {
 
                 // MARK: Headline
                 VStack(alignment: .leading, spacing: 0) {
-                    Text("Tonight")
-                        .heroCondensedStyle(headlineSize)
-                        .foregroundColor(.white)
-                        .lineLimit(1)
-                        .minimumScaleFactor(0.5)
-                    Text("gets")
-                        .heroCondensedStyle(headlineSize)
-                        .foregroundColor(.white)
-                        .lineLimit(1)
-                        .minimumScaleFactor(0.5)
-
-                    TimelineView(.periodic(from: startDate, by: wordInterval)) { timeline in
-                        let elapsed = timeline.date.timeIntervalSince(startDate)
-                        let index = max(0, Int(elapsed / wordInterval)) % rotatingWords.count
-
-                        Text(rotatingWords[index])
+                    // Matches the artifact's line-height: 0.84 — SwiftUI's
+                    // per-Text line height is looser than that, so pull the
+                    // three lines together with negative spacing here.
+                    VStack(alignment: .leading, spacing: -headlineSize * 0.28) {
+                        Text("Tonight")
                             .heroCondensedStyle(headlineSize)
-                            .foregroundColor(Color(hex: "FF2E88"))
+                            .foregroundColor(.white)
                             .lineLimit(1)
                             .minimumScaleFactor(0.5)
-                            .id(index)
-                            .transition(.asymmetric(
-                                insertion: .move(edge: .bottom).combined(with: .opacity),
-                                removal: .move(edge: .top).combined(with: .opacity)
-                            ))
-                            .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.4), value: index)
+                        Text("gets")
+                            .heroCondensedStyle(headlineSize)
+                            .foregroundColor(.white)
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.5)
+
+                        TimelineView(.periodic(from: startDate, by: wordInterval)) { timeline in
+                            let elapsed = timeline.date.timeIntervalSince(startDate)
+                            let index = max(0, Int(elapsed / wordInterval)) % rotatingWords.count
+
+                            Text(rotatingWords[index])
+                                .heroCondensedStyle(headlineSize)
+                                .foregroundColor(Color(hex: "FF2E88"))
+                                .lineLimit(1)
+                                .minimumScaleFactor(0.5)
+                                .id(index)
+                                .transition(.asymmetric(
+                                    insertion: .move(edge: .bottom).combined(with: .opacity),
+                                    removal: .move(edge: .top).combined(with: .opacity)
+                                ))
+                                .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.4), value: index)
+                        }
+                        .frame(height: headlineSize * 0.84, alignment: .leading)
+                        .clipped()
                     }
-                    .frame(height: headlineSize * 1.15, alignment: .leading)
-                    .clipped()
 
                     Text("One phone. Real questions about the people in the room. Say it out loud.")
                         .font(AppTheme.interMedium(16))
