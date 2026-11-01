@@ -162,10 +162,12 @@ private struct CrownCardFace: View {
                 .fill(Color.black)
                 .frame(height: 2)
 
-            HStack(spacing: 0) {
-                statColumn("\(player.score)", "points")
-                statColumn("\(player.topCategory?.count ?? 0)", topCategoryLabel)
-                statColumn("\(viewModel.totalSkips)", "cards skipped")
+            Grid(horizontalSpacing: 10) {
+                GridRow(alignment: .top) {
+                    statColumn("\(player.score)", "points")
+                    statColumn("\(player.topCategory?.count ?? 0)", topCategoryLabel)
+                    statColumn("\(viewModel.totalSkips)", "cards skipped")
+                }
             }
             .padding(.top, 14)
 
@@ -195,7 +197,10 @@ private struct CrownCardFace: View {
             Text(value)
                 .displayStyle(24)
             Text(label)
-                .font(AppTheme.interBold(10))
+                .font(AppTheme.interBold(9.5))
+                .lineLimit(2)
+                .fixedSize(horizontal: false, vertical: true)
+                .minimumScaleFactor(0.85)
         }
         .foregroundColor(.black)
         .frame(maxWidth: .infinity, alignment: .leading)
