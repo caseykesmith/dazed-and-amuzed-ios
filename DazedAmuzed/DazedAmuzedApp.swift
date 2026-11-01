@@ -11,6 +11,10 @@ import SwiftUI
 struct DazedAmuzedApp: App {
     @State private var showSplash = true
 
+    init() {
+        FontLoader.registerCustomFonts()
+    }
+
     var body: some Scene {
         WindowGroup {
             ZStack {

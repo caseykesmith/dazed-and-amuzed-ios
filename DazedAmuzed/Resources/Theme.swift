@@ -51,13 +51,48 @@ struct AppTheme {
     static let headlineFont = Font.system(size: 24, weight: .bold, design: .rounded)
     static let bodyFont = Font.system(size: 16, weight: .medium, design: .rounded)
     static let captionFont = Font.system(size: 12, weight: .medium, design: .rounded)
-    
+
+    // Display (Bricolage Grotesque) + body (Inter), used by the game screen's
+    // paint-splat redesign. Falls back to the system font automatically if the
+    // custom font ever fails to register.
+    static func display(_ size: CGFloat) -> Font {
+        .custom("BricolageGrotesque-ExtraBold", size: size)
+    }
+
+    static func displayMedium(_ size: CGFloat) -> Font {
+        .custom("BricolageGrotesque-Medium", size: size)
+    }
+
+    static func interMedium(_ size: CGFloat) -> Font {
+        .custom("Inter-Medium", size: size)
+    }
+
+    static func interBold(_ size: CGFloat) -> Font {
+        .custom("Inter-Bold", size: size)
+    }
+
+    /// Tight tracking for the display font — brand headlines sit close together
+    /// (see the home-screen wordmark). Proportional so it scales with size.
+    static func displayTracking(for size: CGFloat) -> CGFloat {
+        -size * 0.055
+    }
+
     // MARK: - Spacing
     static let paddingSmall: CGFloat = 8
     static let paddingMedium: CGFloat = 16
     static let paddingLarge: CGFloat = 24
     static let cornerRadius: CGFloat = 16
     static let cornerRadiusLarge: CGFloat = 24
+}
+
+// MARK: - Display text helper
+
+extension View {
+    /// The brand display style everywhere: Bricolage Grotesque ExtraBold with
+    /// tight, consistent tracking so headlines never read as loosely spaced.
+    func displayStyle(_ size: CGFloat) -> some View {
+        self.font(AppTheme.display(size)).tracking(AppTheme.displayTracking(for: size))
+    }
 }
 
 // MARK: - Color Extension for Hex

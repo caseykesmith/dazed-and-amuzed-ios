@@ -7,22 +7,14 @@
 
 import Foundation
 
-enum PlayMode: String, Codable {
-    case local
-    case video
-}
-
 enum GameScreen: Codable {
     case home
-    case playMode
-    case vibeSelect
-    case packSelect
-    case addPlayers
+    case setup
     case gamePlay
-    case judgeTurn
     case pickWinner
-    case giveSips
+    case passPhone
     case results
+    case crownCard
 }
 
 enum GameLength: String, CaseIterable, Codable {
