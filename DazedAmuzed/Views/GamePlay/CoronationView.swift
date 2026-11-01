@@ -10,7 +10,6 @@ import SwiftUI
 struct CoronationView: View {
     @ObservedObject var viewModel: GameViewModel
     @State private var decreeIndex = 0
-    @State private var replayKey = 0
 
     private let decrees = [
         "Everyone calls me Your Majesty.",
@@ -35,30 +34,15 @@ struct CoronationView: View {
             Color.black.ignoresSafeArea()
 
             ConfettiFallView()
-                .id(replayKey)
                 .allowsHitTesting(false)
 
             ScrollView(showsIndicators: false) {
                 VStack(spacing: 20) {
-                    HStack {
-                        Text("GAME OVER · \(champion?.score ?? 0) POINTS")
-                            .font(AppTheme.interBold(12))
-                            .tracking(2)
-                            .foregroundColor(Color(hex: "A6A6A6"))
-                        Spacer()
-                        Button {
-                            HapticsService.light()
-                            replayKey += 1
-                        } label: {
-                            Text("Replay")
-                                .font(AppTheme.interBold(13))
-                                .foregroundColor(.white)
-                                .padding(.horizontal, 16)
-                                .frame(minHeight: 40)
-                                .background(Color(hex: "1A1A1A"))
-                                .clipShape(Capsule())
-                        }
-                    }
+                    Text("GAME OVER · \(champion?.score ?? 0) POINTS")
+                        .font(AppTheme.interBold(12))
+                        .tracking(2)
+                        .foregroundColor(Color(hex: "A6A6A6"))
+                        .frame(maxWidth: .infinity, alignment: .leading)
 
                     if let champion {
                         championBlock(champion)
