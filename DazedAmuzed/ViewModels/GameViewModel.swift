@@ -13,7 +13,6 @@ import Combine
 class GameViewModel: ObservableObject {
     // MARK: - Published State
     @Published var screen: GameScreen = .home
-    @Published var playMode: PlayMode = .local
     @Published var vibe: Vibe = .mixed
     @Published var players: [Player] = []
     @Published var currentPlayerIndex: Int = 0
@@ -21,9 +20,8 @@ class GameViewModel: ObservableObject {
     @Published var usedQuestionIDs: Set<UUID> = []
     @Published var roundNumber: Int = 1
     @Published var settings: GameSettings = GameSettings()
-    @Published var lastWinner: Player? = nil
-    @Published var currentRound: Int = 1
-    @Published var vibeMode: VibeMode = .mixed
+    /// Cards skipped this game — shown as a stat on the Coronation/Crown Card screens.
+    @Published var totalSkips: Int = 0
     
     // MARK: - Questions
     private var allQuestions: [Question] = []
@@ -65,8 +63,10 @@ class GameViewModel: ObservableObject {
         currentPlayerIndex = 0
         roundNumber = 1
         usedQuestionIDs = []
+        totalSkips = 0
         for i in players.indices {
             players[i].score = 0
+            players[i].categoryWins = [:]
         }
     }
     
@@ -107,9 +107,21 @@ class GameViewModel: ObservableObject {
   
     }
     
-    func awardPoint(to player: Player) {
+    func awardPoint(to player: Player, category: QuestionCategory? = nil) {
         if let index = players.firstIndex(where: { $0.id == player.id }) {
             players[index].score += 1
+            if let category {
+                players[index].categoryWins[category, default: 0] += 1
+            }
+        }
+    }
+
+    func undoPoint(from player: Player, category: QuestionCategory? = nil) {
+        if let index = players.firstIndex(where: { $0.id == player.id }) {
+            players[index].score = max(0, players[index].score - 1)
+            if let category, let wins = players[index].categoryWins[category] {
+                players[index].categoryWins[category] = max(0, wins - 1)
+            }
         }
     }
     
@@ -117,11 +129,37 @@ class GameViewModel: ObservableObject {
     func selectCategory(_ category: QuestionCategory) {
         // Clear stale state so an empty category doesn't show the previous question
         currentQuestion = nil
-        // Filter questions by category and pick one
-        let categoryQuestions = allQuestions.filter { $0.category == category }
-        if let question = categoryQuestions.randomElement() {
+        if let question = pickQuestion(in: category) {
             currentQuestion = question
+            usedQuestionIDs.insert(question.id)
         }
+    }
+
+    /// Picks another question in the *same* category as the one on screen —
+    /// used by the "Skip" control on the question card.
+    func skipQuestion() {
+        guard let category = currentQuestion?.category else { return }
+        totalSkips += 1
+        if let question = pickQuestion(in: category) {
+            currentQuestion = question
+            usedQuestionIDs.insert(question.id)
+        }
+    }
+
+    private func pickQuestion(in category: QuestionCategory) -> Question? {
+        let candidates = allQuestions.filter { question in
+            guard question.category == category else { return false }
+            if vibe != .mixed && question.vibe != vibe { return false }
+            return !usedQuestionIDs.contains(question.id)
+        }
+        if let question = candidates.randomElement() {
+            return question
+        }
+        // Every question in this category/vibe has been used — allow repeats
+        // rather than coming up empty.
+        return allQuestions.filter { question in
+            question.category == category && (vibe == .mixed || question.vibe == vibe)
+        }.randomElement()
     }
     
     // MARK: - Navigation
@@ -136,6 +174,7 @@ class GameViewModel: ObservableObject {
         currentQuestion = nil
         usedQuestionIDs = []
         roundNumber = 1
+        totalSkips = 0
         vibe = .mixed
         selectedPacks = Set(QuestionCategory.availableCases)
     }

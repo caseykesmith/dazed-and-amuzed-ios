@@ -43,7 +43,7 @@ enum QuestionCategory: String, Codable, CaseIterable {
         case .stories: return "Spill"
         case .reflection: return "Unfiltered"
         case .wouldYouRather: return "Would You Rather"
-        case .exposed: return "Exposed"
+        case .exposed: return "Most Likely To"
         case .drinkIf: return "Guilty"
         case .musicTrivia: return "Music Trivia"
         case .reunion: return "Reunion"
@@ -88,18 +88,44 @@ enum QuestionCategory: String, Codable, CaseIterable {
 
     var color: Color {
         switch self {
-        case .debates: return Color(hex: "FF6B35")
-        case .wouldYouRather: return Color(hex: "FF2D78")
-        case .stories: return Color(hex: "7B68EE")
-        case .reflection: return Color(hex: "9ACD32")
-        case .exposed: return Color(hex: "FFD700")
-        case .drinkIf: return Color(hex: "20B2AA")
+        case .debates: return Color(hex: "FF5A1F")
+        case .wouldYouRather: return Color(hex: "FF2E88")
+        case .stories: return Color(hex: "8B6BFF")
+        case .reflection: return Color(hex: "C6F432")
+        case .exposed: return Color(hex: "FFD60A")
+        case .drinkIf: return Color(hex: "2EE6C5")
         case .musicTrivia: return Color(hex: "1DB954")
         case .reunion: return Color(hex: "FF6B35")
         case .bachelorette: return Color(hex: "FF69B4")
         case .couplesNight: return Color(hex: "E91E63")
         case .afterDark: return Color(hex: "8B0000")
         case .firstDate: return Color(hex: "FF6B9D")
+        }
+    }
+
+    /// Short tile tagline, shown under the category name on the deck-select grid.
+    var tagline: String {
+        switch self {
+        case .debates: return "Pick a side. Defend it."
+        case .wouldYouRather: return "No good options. Choose."
+        case .stories: return "Story time. Details required."
+        case .reflection: return "The real stuff."
+        case .exposed: return "Vote on who in the group would."
+        case .drinkIf: return "Hands up if it's you."
+        default: return ""
+        }
+    }
+
+    /// One-line round rule, shown on the question card.
+    var rule: String {
+        switch self {
+        case .debates: return "Two players argue it out. The Judge crowns the better case."
+        case .wouldYouRather: return "Everyone answers. Best explanation wins the point."
+        case .stories: return "Everyone tells it. The Judge picks the best story."
+        case .reflection: return "Answer honestly. The Judge picks the answer that hit hardest."
+        case .exposed: return "On three, everyone points. Whoever gets the most fingers has to defend themselves."
+        case .drinkIf: return "Guilty? Hand up. The Judge picks who has to explain."
+        default: return ""
         }
     }
 }
