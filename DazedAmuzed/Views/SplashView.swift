@@ -3,9 +3,9 @@
 //  DazedAmuzed
 //
 //  First-launch sequence: a short multi-beat brand reveal (word → paint
-//  burst → locked wordmark, filling the screen edge-to-edge) that flows
-//  straight into a run of flashed hype taglines, then lands on Home —
-//  fully automatic, no tap required.
+//  burst → locked wordmark, filling the screen edge-to-edge) that holds on
+//  the locked wordmark, then hands off to Home — fully automatic, no tap
+//  required.
 //
 
 import SwiftUI
@@ -21,20 +21,6 @@ struct SplashView: View {
     @State private var splatVisible = false
     @State private var lockedIn = false
     @State private var tagIn = false
-    @State private var brandVisible = true
-
-    // Tagline flash
-    @State private var taglinePhase = false
-    @State private var taglineIndex = 0
-    @State private var taglineVisible = false
-
-    private let taglines = [
-        "Tonight gets spicy.",
-        "Tonight gets messy.",
-        "Tonight gets real loud.",
-        "Tonight gets honest.",
-        "Tonight gets unforgettable."
-    ]
 
     var body: some View {
         GeometryReader { geo in
@@ -45,12 +31,6 @@ struct SplashView: View {
                 let center = CGPoint(x: geo.size.width / 2, y: geo.size.height / 2)
 
                 brandReveal(side: side, center: center)
-                    .opacity(brandVisible ? 1 : 0)
-
-                if taglinePhase {
-                    taglineFlash(side: side)
-                        .transition(.opacity)
-                }
             }
         }
         .ignoresSafeArea()
@@ -125,25 +105,6 @@ struct SplashView: View {
         .position(center)
     }
 
-    // MARK: - Tagline flash
-
-    private func taglineFlash(side: CGFloat) -> some View {
-        Text(taglines[taglineIndex])
-            .displayCondensedStyle(side * 0.13)
-            .foregroundColor(flashColors[taglineIndex % flashColors.count])
-            .multilineTextAlignment(.center)
-            .lineLimit(2)
-            .minimumScaleFactor(0.5)
-            .padding(.horizontal, side * 0.1)
-            .opacity(taglineVisible ? 1 : 0)
-            .scaleEffect(taglineVisible ? 1 : 0.85)
-    }
-
-    private let flashColors: [Color] = [
-        Color(hex: "FF5A1F"), Color(hex: "FF2E88"), Color(hex: "8B6BFF"),
-        Color(hex: "C6F432"), Color(hex: "FFD60A")
-    ]
-
     // MARK: - Sequencing
 
     private func runSequence() {
@@ -162,38 +123,9 @@ struct SplashView: View {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.3) {
             withAnimation(.easeInOut(duration: 0.3)) { tagIn = true }
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            withAnimation(.easeInOut(duration: 0.3)) { brandVisible = false }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
-                taglinePhase = true
-                runTaglines()
-            }
-        }
-    }
-
-    private func runTaglines() {
-        showTagline(at: 0)
-    }
-
-    private func showTagline(at index: Int) {
-        guard index < taglines.count else {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                onFinished()
-            }
-            return
-        }
-        taglineIndex = index
-        taglineVisible = false
-        withAnimation(.spring(response: 0.35, dampingFraction: 0.7)) {
-            taglineVisible = true
-        }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) {
-            withAnimation(.easeIn(duration: 0.15)) {
-                taglineVisible = false
-            }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.18) {
-                showTagline(at: index + 1)
-            }
+        // Hold on the locked wordmark, then hand off to Home.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.1) {
+            onFinished()
         }
     }
 }

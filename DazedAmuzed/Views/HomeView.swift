@@ -36,9 +36,8 @@ struct HomeView: View {
             VStack(spacing: 0) {
                 // MARK: Header
                 HStack {
-                    (Text("DAZED ").foregroundColor(.white)
-                        + Text("& ").foregroundColor(Color(hex: "FF2E88"))
-                        + Text("AMUZED").foregroundColor(.white))
+                    Text("DAZED \(Text("&").foregroundColor(Color(hex: "FF2E88"))) AMUZED")
+                        .foregroundColor(.white)
                         .font(AppTheme.displayCondensed(18))
                         .tracking(AppTheme.displayTracking(for: 18))
                         .frame(maxWidth: .infinity, alignment: .leading)
@@ -103,7 +102,7 @@ struct HomeView: View {
                         .padding(.top, 10)
                 }
                 .padding(.horizontal, 20)
-                .frame(maxHeight: .infinity, alignment: .center)
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
 
                 // MARK: Ticker
                 MarqueeTicker(items: tickerItems)
@@ -223,7 +222,10 @@ private struct MarqueeTicker: View {
             }
         )
         .offset(x: offset)
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+        // minWidth: 0 is required: without it the flexible frame adopts the
+        // fixed-size marquee's full width (~1300pt), which widens Home's whole
+        // VStack past the screen and pushes edge-aligned content off-screen.
+        .frame(minWidth: 0, maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
         .clipped()
     }
 
