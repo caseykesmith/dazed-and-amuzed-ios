@@ -13,6 +13,7 @@ enum FontLoader {
         let names = [
             "BricolageGrotesque-Medium",
             "BricolageGrotesque-ExtraBold",
+            "BricolageGrotesque-ExtraBoldCondensed",
             "Inter-Medium",
             "Inter-Bold"
         ]

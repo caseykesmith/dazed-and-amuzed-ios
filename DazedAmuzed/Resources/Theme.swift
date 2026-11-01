@@ -63,6 +63,12 @@ struct AppTheme {
         .custom("BricolageGrotesque-Medium", size: size)
     }
 
+    /// Condensed display weight — used by the splash screen's big lockup,
+    /// matching the artifact's `font-stretch:75%` treatment.
+    static func displayCondensed(_ size: CGFloat) -> Font {
+        .custom("BricolageGrotesque-ExtraBoldCondensed", size: size)
+    }
+
     static func interMedium(_ size: CGFloat) -> Font {
         .custom("Inter-Medium", size: size)
     }
