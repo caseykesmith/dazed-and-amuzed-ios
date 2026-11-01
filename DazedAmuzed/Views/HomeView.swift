@@ -27,7 +27,8 @@ struct HomeView: View {
         ("Guilty", Color(hex: "2EE6C5"))
     ]
 
-    private let headlineSize: CGFloat = 72
+    // Matches the artifact's spec: 116px on a 390px-wide reference screen.
+    private let headlineSize: CGFloat = 108
 
     var body: some View {
         ZStack {
@@ -65,12 +66,12 @@ struct HomeView: View {
                 // MARK: Headline
                 VStack(alignment: .leading, spacing: 0) {
                     Text("Tonight")
-                        .displayCondensedStyle(headlineSize)
+                        .heroCondensedStyle(headlineSize)
                         .foregroundColor(.white)
                         .lineLimit(1)
                         .minimumScaleFactor(0.5)
                     Text("gets")
-                        .displayCondensedStyle(headlineSize)
+                        .heroCondensedStyle(headlineSize)
                         .foregroundColor(.white)
                         .lineLimit(1)
                         .minimumScaleFactor(0.5)
@@ -80,7 +81,7 @@ struct HomeView: View {
                         let index = max(0, Int(elapsed / wordInterval)) % rotatingWords.count
 
                         Text(rotatingWords[index])
-                            .displayCondensedStyle(headlineSize)
+                            .heroCondensedStyle(headlineSize)
                             .foregroundColor(Color(hex: "FF2E88"))
                             .lineLimit(1)
                             .minimumScaleFactor(0.5)
@@ -195,6 +196,15 @@ struct HomeView: View {
 private extension Text {
     func displayCondensedStyle(_ size: CGFloat) -> Text {
         self.font(AppTheme.displayCondensed(size)).tracking(AppTheme.displayTracking(for: size))
+    }
+
+    /// The artifact's hero headline treatment: uppercase, with the much
+    /// lighter -0.02em tracking it specifies (not the app-wide -0.055em
+    /// `displayTracking`, which crushes letterforms at this size).
+    func heroCondensedStyle(_ size: CGFloat) -> some View {
+        self.font(AppTheme.displayCondensed(size))
+            .tracking(-size * 0.02)
+            .textCase(.uppercase)
     }
 }
 
