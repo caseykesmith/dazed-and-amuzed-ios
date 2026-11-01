@@ -2,44 +2,118 @@
 //  HomeView.swift
 //  DazedAmuzed
 //
-//  Created by Peyton Sadler on 2/11/26.
+//  The Welcome screen — rebuilt to match the artifact's current design:
+//  a rotating "Tonight gets {word}." headline, a scrolling category
+//  ticker, then the two entry points into Setup.
 //
-
 
 import SwiftUI
 
 struct HomeView: View {
     @ObservedObject var viewModel: GameViewModel
-    @State private var bob = false
     @State private var showPlayApartComingSoon = false
+    @State private var showDecksComingSoon = false
+    @State private var startDate = Date()
+
+    private let rotatingWords = ["messy.", "loud.", "petty.", "real.", "spicy."]
+    private let wordInterval: TimeInterval = 1.7
+
+    private let tickerItems: [(name: String, color: Color)] = [
+        ("Debate", Color(hex: "FF5A1F")),
+        ("Would You Rather", Color(hex: "FF2E88")),
+        ("Spill", Color(hex: "8B6BFF")),
+        ("Unfiltered", Color(hex: "C6F432")),
+        ("Most Likely To", Color(hex: "FFD60A")),
+        ("Guilty", Color(hex: "2EE6C5"))
+    ]
+
+    private let headlineSize: CGFloat = 46
 
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
 
             VStack(spacing: 0) {
-                floatingCards
-                    .padding(.top, 20)
+                // MARK: Header
+                HStack {
+                    (Text("DAZED ").foregroundColor(.white)
+                        + Text("& ").foregroundColor(Color(hex: "FF2E88"))
+                        + Text("AMUZED").foregroundColor(.white))
+                        .font(AppTheme.displayCondensed(18))
+                        .tracking(AppTheme.displayTracking(for: 18))
+                        .frame(maxWidth: .infinity, alignment: .leading)
 
-                VStack(alignment: .leading, spacing: -30) {
-                    Text("DAZED")
-                        .foregroundColor(Color(hex: "FF7A1A"))
-                    (Text("&").foregroundColor(.white) + Text("AMUZED").foregroundColor(Color(hex: "FF2E88")))
+                    Button {
+                        HapticsService.light()
+                        showDecksComingSoon = true
+                    } label: {
+                        HStack(spacing: 6) {
+                            Text("DECKS")
+                            Image(systemName: "arrow.right")
+                                .font(.system(size: 11, weight: .bold))
+                        }
+                        .font(AppTheme.interBold(12))
+                        .tracking(2)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 14)
+                        .frame(minHeight: 40)
+                        .overlay(Capsule().stroke(Color(hex: "333333"), lineWidth: 1))
+                    }
                 }
-                .displayStyle(100)
-                .lineLimit(1)
-                .minimumScaleFactor(0.5)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(.horizontal, 14)
-                .padding(.top, 8)
+                .padding(.horizontal, 20)
+                .padding(.top, 20)
 
-                Text("The party game that reads the room.")
-                    .font(AppTheme.displayMedium(20))
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.horizontal, 20)
-                    .padding(.top, 10)
+                // MARK: Headline
+                VStack(alignment: .leading, spacing: 0) {
+                    Text("Tonight")
+                        .displayCondensedStyle(headlineSize)
+                        .foregroundColor(.white)
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.5)
+                    Text("gets")
+                        .displayCondensedStyle(headlineSize)
+                        .foregroundColor(.white)
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.5)
 
+                    TimelineView(.periodic(from: startDate, by: wordInterval)) { timeline in
+                        let elapsed = timeline.date.timeIntervalSince(startDate)
+                        let index = max(0, Int(elapsed / wordInterval)) % rotatingWords.count
+
+                        Text(rotatingWords[index])
+                            .displayCondensedStyle(headlineSize)
+                            .foregroundColor(Color(hex: "FF2E88"))
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.5)
+                            .id(index)
+                            .transition(.asymmetric(
+                                insertion: .move(edge: .bottom).combined(with: .opacity),
+                                removal: .move(edge: .top).combined(with: .opacity)
+                            ))
+                            .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.4), value: index)
+                    }
+                    .frame(height: headlineSize * 1.15, alignment: .leading)
+                    .clipped()
+
+                    Text("One phone. Real questions about the people in the room. Say it out loud.")
+                        .font(AppTheme.interMedium(16))
+                        .foregroundColor(Color(hex: "BFBFBF"))
+                        .lineLimit(3)
+                        .frame(maxWidth: 320, alignment: .leading)
+                        .padding(.top, 10)
+                }
+                .padding(.horizontal, 20)
+                .frame(maxHeight: .infinity, alignment: .center)
+
+                // MARK: Ticker
+                MarqueeTicker(items: tickerItems)
+                    .frame(height: 44)
+                    .padding(.vertical, 14)
+                    .overlay(Rectangle().fill(Color(hex: "222222")).frame(height: 1), alignment: .top)
+                    .overlay(Rectangle().fill(Color(hex: "222222")).frame(height: 1), alignment: .bottom)
+                    .padding(.bottom, 20)
+
+                // MARK: Buttons
                 VStack(spacing: 10) {
                     Button {
                         viewModel.goTo(.setup)
@@ -47,11 +121,12 @@ struct HomeView: View {
                         HStack {
                             VStack(alignment: .leading, spacing: 2) {
                                 Text("Play together")
-                                    .displayStyle(20)
-                                Text("One phone. Say it out loud.")
+                                    .font(AppTheme.display(20))
+                                    .tracking(AppTheme.displayTracking(for: 20))
+                                Text("One phone. Pass it around.")
                                     .font(AppTheme.interMedium(13))
                             }
-                            Spacer()
+                            .frame(maxWidth: .infinity, alignment: .leading)
                             Image(systemName: "arrow.right")
                                 .font(.system(size: 18, weight: .bold))
                         }
@@ -78,40 +153,31 @@ struct HomeView: View {
                                         .foregroundColor(.black)
                                         .padding(.horizontal, 8)
                                         .padding(.vertical, 2)
-                                        .background(Color(hex: "2EE6C5"))
+                                        .background(Color(hex: "FF2E88"))
                                         .clipShape(Capsule())
                                 }
                                 Text("Friends join with a code. No app needed.")
                                     .font(AppTheme.interMedium(13))
                                     .foregroundColor(Color(hex: "D9D9D9"))
                             }
-                            Spacer()
+                            .frame(maxWidth: .infinity, alignment: .leading)
                             Image(systemName: "arrow.right")
                                 .font(.system(size: 18, weight: .bold))
-                                .foregroundColor(Color(hex: "2EE6C5"))
                         }
                         .foregroundColor(.white)
                         .padding(.horizontal, 20)
                         .frame(maxWidth: .infinity)
                         .frame(height: 72)
-                        .background(Color(hex: "111111"))
+                        .background(Color.black)
                         .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
                         .overlay(
                             RoundedRectangle(cornerRadius: 24, style: .continuous)
-                                .stroke(Color(hex: "2EE6C5"), lineWidth: 2)
+                                .stroke(Color.white, lineWidth: 2)
                         )
                     }
                 }
                 .padding(.horizontal, 20)
-                .padding(.top, 36)
-
-                Spacer(minLength: 20)
-            }
-            .padding(.bottom, 20)
-        }
-        .onAppear {
-            withAnimation(.easeInOut(duration: 2).repeatForever(autoreverses: true)) {
-                bob = true
+                .padding(.bottom, 24)
             }
         }
         .alert("Play Apart is coming soon", isPresented: $showPlayApartComingSoon) {
@@ -119,70 +185,71 @@ struct HomeView: View {
         } message: {
             Text("Remote play with a join code isn't ready yet — for now, play together on one phone.")
         }
-    }
-
-    private var floatingCards: some View {
-        ZStack {
-            FloatingQuestionCard(
-                label: "DEBATE",
-                text: "Splitting the bill when you only had a salad?",
-                color: Color(hex: "FF5A1F"),
-                width: 170, height: 230
-            )
-            .rotationEffect(.degrees(bob ? -14 : -12))
-            .offset(y: bob ? -8 : 0)
-            .position(x: 103, y: 155)
-
-            FloatingQuestionCard(
-                label: "MOST LIKELY TO",
-                text: "Most likely to text their ex tonight.",
-                color: Color(hex: "FFD60A"),
-                width: 170, height: 230
-            )
-            .rotationEffect(.degrees(bob ? 16 : 14))
-            .offset(y: bob ? -6 : 0)
-            .position(x: 291, y: 165)
-
-            FloatingQuestionCard(
-                label: "WOULD YOU RATHER",
-                text: "Your camera roll goes public, or your search history?",
-                color: Color(hex: "FF2E88"),
-                width: 180, height: 250
-            )
-            .shadow(color: .black.opacity(0.6), radius: 20, y: 12)
-            .rotationEffect(.degrees(bob ? 4 : 1))
-            .offset(y: bob ? -12 : 0)
-            .position(x: 190, y: 145)
+        .alert("More decks are coming soon", isPresented: $showDecksComingSoon) {
+            Button("Got it", role: .cancel) {}
+        } message: {
+            Text("The pack store isn't ready yet — for now, all six core decks are included free.")
         }
-        .frame(height: 300)
     }
 }
 
-// MARK: - Floating question card
+private extension Text {
+    func displayCondensedStyle(_ size: CGFloat) -> Text {
+        self.font(AppTheme.displayCondensed(size)).tracking(AppTheme.displayTracking(for: size))
+    }
+}
 
-private struct FloatingQuestionCard: View {
-    let label: String
-    let text: String
-    let color: Color
-    let width: CGFloat
-    let height: CGFloat
+// MARK: - Marquee ticker
+
+private struct MarqueeTicker: View {
+    let items: [(name: String, color: Color)]
+
+    @State private var offset: CGFloat = 0
+    @State private var setWidth: CGFloat = 0
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 0) {
-            Text(label)
-                .font(AppTheme.interBold(11))
-                .tracking(1.5)
-            Spacer()
-            Text(text)
-                .font(AppTheme.display(19))
-                .lineLimit(4)
-                .minimumScaleFactor(0.65)
+        HStack(spacing: 0) {
+            row
+            row
         }
-        .foregroundColor(.black)
-        .padding(16)
-        .frame(width: width, height: height, alignment: .topLeading)
-        .background(color)
-        .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+        .fixedSize(horizontal: true, vertical: false)
+        .background(
+            GeometryReader { geo in
+                Color.clear
+                    .onAppear {
+                        setWidth = geo.size.width / 2
+                        startAnimating()
+                    }
+            }
+        )
+        .offset(x: offset)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+        .clipped()
+    }
+
+    private var row: some View {
+        HStack(spacing: 26) {
+            ForEach(items.indices, id: \.self) { i in
+                HStack(spacing: 10) {
+                    Circle()
+                        .fill(items[i].color)
+                        .frame(width: 10, height: 10)
+                    Text(items[i].name)
+                        .displayCondensedStyle(24)
+                        .foregroundColor(.white)
+                        .fixedSize()
+                }
+            }
+        }
+        .padding(.trailing, 26)
+    }
+
+    private func startAnimating() {
+        guard setWidth > 0 else { return }
+        offset = 0
+        withAnimation(.linear(duration: 16).repeatForever(autoreverses: false)) {
+            offset = -setWidth
+        }
     }
 }
 
