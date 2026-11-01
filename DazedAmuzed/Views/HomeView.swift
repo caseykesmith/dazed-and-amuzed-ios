@@ -27,7 +27,7 @@ struct HomeView: View {
         ("Guilty", Color(hex: "2EE6C5"))
     ]
 
-    private let headlineSize: CGFloat = 46
+    private let headlineSize: CGFloat = 72
 
     var body: some View {
         ZStack {

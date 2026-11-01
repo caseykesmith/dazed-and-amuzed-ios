@@ -11,8 +11,6 @@ import SwiftUI
 struct GamePlayView: View {
     @ObservedObject var viewModel: GameViewModel
     @StateObject private var store = StoreKitService.shared
-    @State private var showVibeSwitch = false
-    @State private var showRules = false
 
     // Paint-splat reveal state
     @State private var revealOpen: Bool
@@ -75,7 +73,6 @@ struct GamePlayView: View {
 
             VStack(spacing: 16) {
                 header
-                metaRow
                 judgeHeadline
 
                 deckGrid
@@ -92,26 +89,12 @@ struct GamePlayView: View {
                 revealOverlay(question: question)
             }
         }
-        .sheet(isPresented: $showVibeSwitch) {
-            VibeSwitchSheet(viewModel: viewModel)
-                .presentationDetents([.height(300)])
-                .presentationDragIndicator(.visible)
-        }
-        .sheet(isPresented: $showRules) {
-            RulesSheet()
-                .presentationDetents([.medium])
-                .presentationDragIndicator(.visible)
-        }
     }
 
     // MARK: - Header
 
     private var header: some View {
         HStack {
-            Text("\(Text("DAZED").foregroundColor(AppTheme.purple)) & \(Text("AMUZED").foregroundColor(AppTheme.pink))")
-                .foregroundColor(.white)
-                .displayStyle(17)
-
             Spacer()
 
             Button {
@@ -125,36 +108,6 @@ struct GamePlayView: View {
                     .background(Color(hex: "1A1A1A"))
                     .clipShape(Capsule())
             }
-        }
-    }
-
-    private var metaRow: some View {
-        HStack(spacing: 14) {
-            Button {
-                showVibeSwitch = true
-            } label: {
-                HStack(spacing: 4) {
-                    Text(vibeEmoji)
-                    Text(vibeTitle)
-                    Image(systemName: "chevron.down")
-                        .font(.system(size: 9))
-                }
-                .font(AppTheme.interMedium(12))
-                .foregroundColor(Color(hex: "9CA3AF"))
-            }
-
-            Button {
-                showRules = true
-            } label: {
-                HStack(spacing: 4) {
-                    Text("📖")
-                    Text("Rules")
-                }
-                .font(AppTheme.interMedium(12))
-                .foregroundColor(Color(hex: "9CA3AF"))
-            }
-
-            Spacer()
         }
     }
 
@@ -544,21 +497,6 @@ struct GamePlayView: View {
         }
     }
 
-    var vibeEmoji: String {
-        switch viewModel.vibe {
-        case .party: return "🎉"
-        case .deep: return "🌙"
-        case .mixed: return "✨"
-        }
-    }
-
-    var vibeTitle: String {
-        switch viewModel.vibe {
-        case .party: return "Party Mode"
-        case .deep: return "Go Deep"
-        case .mixed: return "Best of Both"
-        }
-    }
 }
 
 // MARK: - Tile press style
@@ -644,121 +582,6 @@ struct PaintSplatView: View {
         }
         .position(origin)
         .allowsHitTesting(false)
-    }
-}
-
-// MARK: - Vibe Switch Sheet
-
-struct VibeSwitchSheet: View {
-    @ObservedObject var viewModel: GameViewModel
-    @Environment(\.dismiss) var dismiss
-
-    var body: some View {
-        ZStack {
-            AppTheme.background
-                .ignoresSafeArea()
-
-            VStack(spacing: 20) {
-                Text("Switch Vibe")
-                    .font(.system(size: 24, weight: .bold, design: .rounded))
-                    .foregroundColor(AppTheme.text)
-                    .padding(.top, 24)
-
-                VStack(spacing: 12) {
-                    VibeOptionRow(emoji: "🎉", title: "Party Mode", isSelected: viewModel.vibe == .party) {
-                        viewModel.vibe = .party
-                        dismiss()
-                    }
-                    VibeOptionRow(emoji: "🌙", title: "Go Deep", isSelected: viewModel.vibe == .deep) {
-                        viewModel.vibe = .deep
-                        dismiss()
-                    }
-                    VibeOptionRow(emoji: "✨", title: "Best of Both", isSelected: viewModel.vibe == .mixed) {
-                        viewModel.vibe = .mixed
-                        dismiss()
-                    }
-                }
-                .padding(.horizontal, 24)
-
-                Spacer()
-            }
-        }
-    }
-}
-
-struct VibeOptionRow: View {
-    let emoji: String
-    let title: String
-    let isSelected: Bool
-    let action: () -> Void
-
-    var body: some View {
-        Button(action: action) {
-            HStack {
-                Text(emoji)
-                    .font(.system(size: 24))
-                Text(title)
-                    .font(.system(size: 17, weight: .semibold, design: .rounded))
-                    .foregroundColor(AppTheme.text)
-                Spacer()
-                if isSelected {
-                    Image(systemName: "checkmark.circle.fill")
-                        .foregroundColor(AppTheme.purple)
-                }
-            }
-            .padding(16)
-            .background(AppTheme.card)
-            .cornerRadius(12)
-        }
-    }
-}
-
-// MARK: - Rules Sheet
-
-struct RulesSheet: View {
-    var body: some View {
-        ZStack {
-            AppTheme.background
-                .ignoresSafeArea()
-
-            VStack(spacing: 24) {
-                Text("📖 How to Play")
-                    .font(.system(size: 28, weight: .bold, design: .rounded))
-                    .foregroundColor(AppTheme.text)
-                    .padding(.top, 24)
-
-                VStack(alignment: .leading, spacing: 16) {
-                    RuleRow(number: "1", text: "The **Judge** picks a card type")
-                    RuleRow(number: "2", text: "Everyone else answers or debates")
-                    RuleRow(number: "3", text: "Judge picks their favorite")
-                    RuleRow(number: "4", text: "Winner gets a point")
-                    RuleRow(number: "5", text: "First to target score wins!")
-                }
-                .padding(.horizontal, 24)
-
-                Spacer()
-            }
-        }
-    }
-}
-
-struct RuleRow: View {
-    let number: String
-    let text: String
-
-    var body: some View {
-        HStack(alignment: .center, spacing: 12) {
-            Text(number)
-                .font(.system(size: 14, weight: .bold, design: .rounded))
-                .foregroundColor(.white)
-                .frame(width: 28, height: 28)
-                .background(AppTheme.purple)
-                .cornerRadius(14)
-
-            Text(.init(text))
-                .font(.system(size: 16, design: .rounded))
-                .foregroundColor(AppTheme.text)
-        }
     }
 }
 
