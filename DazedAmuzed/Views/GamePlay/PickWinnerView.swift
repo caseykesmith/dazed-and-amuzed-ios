@@ -202,7 +202,7 @@ struct PickWinnerView: View {
                 .lineSpacing(-10)
 
             if let runnerUp {
-                Text("\(winner.name) takes the lead, \(winner.score) to \(runnerUp.score).")
+                Text("\(winner.name) takes the lead, \(liveScore(for: winner)) to \(runnerUp.score).")
                     .displayStyle(20)
                     .foregroundColor(.black)
                     .multilineTextAlignment(.center)
@@ -271,7 +271,10 @@ struct PickWinnerView: View {
 
     private func advance() {
         guard let w = winner else { return }
-        let newScore = w.score
+        // `winner` is a value-type snapshot taken at the moment of the tap, so its
+        // .score is stale by exactly the point just awarded — always re-read the
+        // live score from the view model rather than trusting the local copy.
+        let newScore = liveScore(for: w)
         // Clear the resolved question so returning to the deck-select screen
         // shows a fresh grid instead of silently reopening this round's card.
         viewModel.currentQuestion = nil
@@ -289,6 +292,12 @@ struct PickWinnerView: View {
         guard maxScore > 0 else { return nil }
         let top = viewModel.players.filter { $0.score == maxScore }
         return top.count == 1 ? top.first?.id : nil
+    }
+
+    /// `Player` is a value type, so a `Player` captured earlier (like `winner`)
+    /// doesn't reflect points awarded since — look its current score up live.
+    private func liveScore(for player: Player) -> Int {
+        viewModel.players.first(where: { $0.id == player.id })?.score ?? player.score
     }
 }
 
