@@ -235,6 +235,13 @@ struct GamePlayView: View {
         let categoryIndex = (allCategories.firstIndex(of: category) ?? 0) + 1
 
         return ZStack {
+            // The splat is a fixed-size shape scaled up from a point origin — on
+            // iPhone that scale happens to overshoot the screen on every edge, but
+            // on a much larger canvas (iPad) its organic edge falls inside the
+            // bounds and the deck grid behind it shows through. A solid fill
+            // guarantees full coverage regardless of screen size.
+            splatColor.ignoresSafeArea()
+
             PaintSplatView(color: splatColor, origin: splatOrigin, phase: splatPhase)
 
             VStack(alignment: .leading, spacing: 18) {
